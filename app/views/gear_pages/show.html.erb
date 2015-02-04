@@ -1,20 +1,22 @@
+<div class="container">
+  <div class="row">
+
 <p id="notice"><%= notice %></p>
 
-<div id="menu"><strong>Top Level:</strong> <ul > 
-  <% GearPage.roots.each do |gear_page| %>
-  <li><%= link_to gear_page.name, gear_page %></li>
-  <% end %>
-</ul>
+  <div class="col-md-2 column">
+
+      <div id="menu"><strong>Main Menu:</strong> <ul > 
+        <% GearPage.roots.each do |gear_page| %>
+        <li><%= link_to gear_page.name, gear_page %></li>
+        <% end %>
+      </ul>
+      </div>
 </div>
 
-<div id="submenu">
-<%= render 'submenu_pages', gear_pages: @gear_page.root.descendants.arrange  %>
-</div>
-
-<p>
-  <strong>Name:</strong>
+<div class="col-md-8 column">
+<div class="page-header">
   <%= @gear_page.name %>
-</p>
+</div>
 
 <p>
   <strong>Description:</strong>
@@ -36,7 +38,26 @@
   <%= @gear_page.genre %>
 </p>
 
+  </div>
+</div>
+
+<div class="row">
+
+<div class="col-md-2 column">
+</div>
+
+<div class="col-md-8 column">
+  <div class="page-header">
+  Sub Menu for <%= @gear_page.name %>
+</div>
+
+<div id="submenu"> <strong>Sub Menu:</strong>
+<%= render 'submenu_pages', gear_pages: @gear_page.root.descendants.arrange  %>
+</div>
+</div>
+</div>
 
 
 <%= link_to 'Edit', edit_gear_page_path(@gear_page) %> |
 <%= link_to 'Back', gear_pages_path %>
+ </div>
