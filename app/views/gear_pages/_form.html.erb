@@ -1,0 +1,46 @@
+<%= form_for(@gear_page) do |f| %>
+  <% if @gear_page.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@gear_page.errors.count, "error") %> prohibited this gear_page from being saved:</h2>
+
+      <ul>
+      <% @gear_page.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :brand_id %><br>
+    <%= f.text_field :brand_id %>
+  </div>
+  <div class="field">
+    <%= f.label :artist_id %><br>
+    <%= f.text_field :artist_id %>
+  </div>
+  <div class="field">
+    <%= f.label :genre_id %><br>
+    <%= f.text_field :genre_id %>
+  </div>
+  <div class="field">
+  <%= f.label :parent_id %><br />
+  <%= f.collection_select :parent_id, GearPage.order(:name), :id, :name, include_blank: true %>
+</div>
+<div class="field">
+  <%= f.label :artist_id %><br />
+  <%= f.collection_select :artist_id, Artist.order(:name), :id, :name, include_blank: true %>
+</div>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,42 @@
+<p id="notice"><%= notice %></p>
+
+<div id="menu"><strong>Top Level:</strong> <ul > 
+  <% GearPage.roots.each do |gear_page| %>
+  <li><%= link_to gear_page.name, gear_page %></li>
+  <% end %>
+</ul>
+</div>
+
+<div id="submenu">
+<%= render 'submenu_pages', gear_pages: @gear_page.root.descendants.arrange  %>
+</div>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gear_page.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @gear_page.description %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @gear_page.brand %>
+</p>
+
+<p>
+  <strong>Related Artist:</strong>
+  <%= @gear_page.artist %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @gear_page.genre %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_gear_page_path(@gear_page) %> |
+<%= link_to 'Back', gear_pages_path %>
