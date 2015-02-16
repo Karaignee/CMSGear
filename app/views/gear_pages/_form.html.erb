@@ -4,9 +4,9 @@
       <h2><%= pluralize(@gear_page.errors.count, "error") %> prohibited this gear_page from being saved:</h2>
 
       <ul>
-      <% @gear_page.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% @gear_page.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
@@ -20,25 +20,25 @@
     <%= f.text_area :description %>
   </div>
 
-  </div>
   <div class="field">
     <%= f.label :genre_id %><br>
     <%= f.text_field :genre_id %>
   </div>
   <div class="field">
-  <%= f.label :parent_id %><br />
-  <%= f.collection_select :parent_id, GearPage.order(:name), :id, :name, include_blank: true %>
-</div>
-<div class="field">
-  <%= f.label :artist_id %><br />
-  <%= f.collection_select :artist_id, Artist.order(:name), :id, :name, include_blank: true %>
-</div>
-<div class="field">
-  <%= f.label :brand_id %><br />
-  <%= f.collection_select :brand_id, Brand.order(:name), :id, :name, include_blank: true %>
-</div>
+    <%= f.label :parent_id %><br />
+    <%= f.collection_select :parent_id, GearPage.order(:name), :id, :name, include_blank: true %>
   </div>
+  <div class="field">
+    <%= f.label :artist_id %><br />
+    <%= f.collection_select :artist_id, Artist.order(:name), :id, :name, include_blank: true %>
+  </div>
+  <div class="field">
+    <%= f.label :brand_id %><br />
+    <%= f.collection_select :brand_id, Brand.order(:name), :id, :name, include_blank: true %>
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>
