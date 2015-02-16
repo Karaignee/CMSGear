@@ -25,10 +25,6 @@
     <%= f.text_field :genre_id %>
   </div>
   <div class="field">
-    <%= f.label :parent_id %><br />
-    <%= f.collection_select :parent_id, GearPage.order(:name), :id, :name, include_blank: true %>
-  </div>
-  <div class="field">
     <%= f.label :artist_id %><br />
     <%= f.collection_select :artist_id, Artist.order(:name), :id, :name, include_blank: true %>
   </div>
