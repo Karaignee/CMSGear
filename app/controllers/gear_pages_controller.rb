@@ -71,6 +71,6 @@ class GearPagesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def gear_page_params
-      params.require(:gear_page).permit(:name, :description, :brand_id, :artist_id, :genre_id, :ancestry, :parent_id)
+      params.require(:gear_page).permit(:name, :description, :brand_id, :artist_id, :genre_id, :profile_image, :ancestry, :parent_id)
     end
 end
