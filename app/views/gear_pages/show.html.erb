@@ -1,60 +1,40 @@
 <div class="container">
   <div class="row">
 
-<p id="notice"><%= notice %></p>
+    <p id="notice"><%= notice %></p>
 
-  <div class="col-md-2 column">
 
-      <div id="menu"><strong>Main Menu:</strong> <ul > 
-        <% GearPage.roots.each do |gear_page| %>
-        <li><%= link_to gear_page.name, gear_page %></li>
-        <% end %>
-      </ul>
+    <div class="col-md-8 column">
+      
+      <div class="page-header">
+        <%= @gear_page.name %>
       </div>
-</div>
 
-<div class="col-md-8 column">
-<div class="page-header">
-  <%= @gear_page.name %>
-</div>
+      <p>
+      </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @gear_page.description %>
-</p>
+      <p>
+        <strong>Description:</strong>
+        <%= @gear_page.description %>
+      </p>
 
-<p>
-  <strong>Brand:</strong>
-  <%= @gear_page.brand %>
-</p>
+      <p>
+        <strong>Brand:</strong>
+        <%= @gear_page.brand %>
+      </p>
 
-<p>
-  <strong>Related Artist:</strong>
-  <%= @gear_page.artist %>
-</p>
+      <p>
+        <strong>Related Artist:</strong>
+        <%= @gear_page.artist %>
+      </p>
 
-<p>
-  <strong>Genre:</strong>
-  <%= @gear_page.genre %>
-</p>
+      <p>
+        <strong>Genre:</strong>
+        <%= @gear_page.genre %>
+      </p>
 
+    </div>
   </div>
-</div>
-
-<div class="row">
-
-<div class="col-md-2 column">
-</div>
-
-<div class="col-md-8 column">
-  <div class="page-header">
-  Sub Menu for <%= @gear_page.name %>
-</div>
-
-<div id="submenu"> <strong>Sub Menu:</strong>
-<%= render 'submenu_pages', gear_pages: @gear_page.root.descendants.arrange  %>
-</div>
-</div>
 </div>
 
 
