@@ -20,6 +20,10 @@ class GearPage < ActiveRecord::Base
 
   has_ancestry
 
+  has_attached_file :profile_image, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
+  validates_attachment_content_type :profile_image, :content_type => /\Aimage\/.*\Z/
+
+
   # head_image - with default bouron wallpaper
   # gear profile image
   # array of feature images
