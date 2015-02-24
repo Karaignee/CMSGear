@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'annotate'
 gem 'paperclip'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
