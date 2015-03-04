@@ -2,41 +2,43 @@
   <div class="row">
     <div class="col-md-8 column">
 
-<h1>Listing gear_pages</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th>Brand</th>
-      <th>Artist</th>
-      <th>Genre</th>
-      <th>Ancestry</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @gear_pages.each do |gear_page| %>
-      <tr>
-        <td><%= gear_page.name %></td>
-        <td><%= gear_page.description %></td>
-        <td><%= gear_page.brand %></td>
-        <td><%= gear_page.artist %></td>
-        <td><%= gear_page.genre %></td>
-        <td><%= gear_page.ancestry %></td>
-        <td><%= link_to 'Show', gear_page %></td>
-        <td><%= link_to 'Edit', edit_gear_page_path(gear_page) %></td>
-        <td><%= link_to 'Destroy', gear_page, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
+<h1>Gear</h1>
 
 <%= link_to 'New Gear page', new_gear_page_path %>
     </div>
   </div>
  </div>
+ 
+<div class="container">
+	<div class="masonry">
+    	<% @gear_pages.each do |gear_page| %>
+	    	<div class="masonry-item">
+		    	<div class="gear-photo">
+		    		<%= link_to (image_tag gear_page.profile_image.url(:medium)), gear_page %>
+		    	</div>
+	    	<div class="gear-info">
+	   	    	<%= gear_page.name %>
+	   	    	<br />
+	   	    	<%= gear_page.description %>
+	   	    	<br />
+	   	    	<%= gear_page.brand %>
+	   	    	<br />
+	   	    	<%= gear_page.artist %>
+	   	    	<br />
+	   	    	<%= gear_page.genre %>
+	   	    	<br />
+	   	    	<%= gear_page.ancestry %>
+	   	    	<br />
+	   	    	<%= link_to 'Show', gear_page %>
+	   	    	<br />
+	   	    	<%= link_to 'Edit', edit_gear_page_path(gear_page) %>
+	   	    	<br />
+	   	    	<%= link_to 'Destroy', gear_page, method: :delete, data: { confirm: 'Are you sure?' } %>
+	   	    	<br />
+	   	    	<br />
+		  		<button id="read_button" onclick="createCookie('user_liked_this', 30);ga('send', 'event', 'Likes', 'Gear', 'Gibson Les Paul Standard');"></button>
+	   		</div>
+			</div>
+		<% end %>
+	</div>
+</div>
