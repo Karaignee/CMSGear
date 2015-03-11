@@ -63,6 +63,10 @@ class GearPagesController < ApplicationController
     end
   end
 
+  def test
+    
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_gear_page

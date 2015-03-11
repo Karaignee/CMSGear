@@ -1,0 +1,1723 @@
+test.html.erb
+
+
+
+<!DOCTYPE html>
+<html class='html-responsive false' lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>Reverb</title>
+<meta content="Get started listing your new, used, and vintage music gear and instruments here. Make classifieds or auctions for used guitars, keys, drums and more." name="description" />
+<link href="https://reverb.com/listings/new" rel="canonical" />
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='chrome=1' http-equiv='X-UA-Compatible'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"6245fbd71d","applicationID":"1466167","transactionName":"cQsLFkNfDlpWQxYPXkEQDAxWQ01YVkY=","queueTime":0,"applicationTime":147,"agent":"js-agent.newrelic.com/nr-593.min.js"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgQGU19aGwIEUldTAQY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:23,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(4),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(5),"addEventListener"in window&&t(2),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(3),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:10,2:7,3:11,4:3,5:9,6:24,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],6:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1);t("loader").features.stn=!0,t(2),n.on("fn-start",function(t){var e=t[0];e instanceof Event&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof Event&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:10,2:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],7:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=t[1]=a(e,"nr@wrapped",function(){return i(e,"fn-",null,e.name||"anonymous")}):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,2:25,ee:"QJf3ax",gos:"7eSDFh"}],8:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState"],"-")},{1:25,2:24,ee:"QJf3ax"}],9:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:25,2:24,ee:"QJf3ax"}],10:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:25,2:24,ee:"QJf3ax"}],11:[function(t,e){function n(){f.inPlace(this,p,"fn-")}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),u.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(o){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:7,2:25,ee:"QJf3ax"}],12:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",[e])}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:13,3:11,4:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],13:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],14:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:23,2:24,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=l.info=NREUM.info;if(t&&t.licenseKey&&t.applicationID&&f&&f.body){s(h,function(e,n){e in t||(t[e]=n)}),l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=f.createElement("script");e.src=l.proto+t.agent,f.body.appendChild(e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=(t(2),window),f=c.document,u="addEventListener",d="attachEvent",p=(""+location).split("?")[0],h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-593.min.js"},l=e.exports={offset:i(),origin:p,features:{}};f[u]?(f[u]("DOMContentLoaded",o,!1),c[u]("load",n,!1)):(f[d]("onreadystatechange",r),c[d]("onload",n)),a("mark",["firstbyte",i()])},{1:23,2:14,handle:"D5DuLP"}],23:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],24:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],25:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:24,ee:"QJf3ax"}]},{},["G9z0Bl",4,12,6,5]);</script>
+<meta content='width=device-width' id='' name='viewport'>
+<meta content='75E2D58A8E3FD9841A4E477D511CBC3A' name='msvalidate.01'>
+<meta content='i95oTYSc1XFcsdQTDqev96hMQoMB9sY2oJkFE3L_j6E' name='google-site-verification'>
+<meta content='app-id=674604876' name='apple-itunes-app'>
+<meta content='674604876' name='twitter:app:id:iphone'>
+<meta content='Reverb' name='twitter:app:name:iphone'>
+<meta content='5dc0555a3c25059fb6e7dfa61febe4c5' name='p:domain_verify'>
+<meta name='reverb-user-api-token'>
+<link href="//d1g5417jjjo7sf.cloudfront.net/assets/top-level/favicon-d715cafb8a34980051ff5525950e7bc5.png" rel="shortcut icon" type="image/png" />
+<link href='//fonts.googleapis.com/css?family=PT+Sans:400,700|Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='https://plus.google.com/105095810138167755337' rel='publisher'>
+<link href='//d1g5417jjjo7sf.cloudfront.net/assets/apple-icons/touch-icon-iphone-315541c765469a84c9b75fc4c604c5f6.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='//d1g5417jjjo7sf.cloudfront.net/assets/apple-icons/touch-icon-iphone-retina-c2856113b87e682e96e348935145921a.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='//d1g5417jjjo7sf.cloudfront.net/assets/apple-icons/touch-icon-ipad-43d5b3bd553f29fd891763e9b24e5bc4.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='//d1g5417jjjo7sf.cloudfront.net/assets/apple-icons/touch-icon-ipad-retina-7f03aa6339182bb59e5473e83a1b91f8.png' rel='apple-touch-icon' sizes='144x144'>
+<link href="//d1g5417jjjo7sf.cloudfront.net/assets/application-b9a8173768334166719cb8991ccdaff9.css" media="all" rel="stylesheet" />
+<!--[if lte IE 9]>
+<link href="//d1g5417jjjo7sf.cloudfront.net/assets/application_split2-769b806649e45ec3051646dbf93459a0.css" media="all" rel="stylesheet" />
+<![endif]-->
+
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="G0d+syriXe/vwHdBpOMIbnZQvjpK3Zq1TSIxhjzA4aY=" name="csrf-token" />
+<script type='text/javascript'>
+// Fix for Firefox autofocus CSS bug
+// See: http://stackoverflow.com/questions/18943276/html-5-autofocus-messes-up-css-loading/18945951#18945951
+</script>
+
+</head>
+<body class='' data-double-admin-header='false' data-flash='null' data-is-admin='false' data-on-vacation='false' data-past-due-statement='false' data-signed-in='false'>
+<div class='mini-header-wrapper'>
+<div class='header-admin'>
+
+</div>
+<div class='content-frame'>
+<nav class='clearfix'>
+<a class="logo-medium pull-left" href="https://reverb.com/" title="Reverb: The Marketplace For Musicians">Reverb</a>
+<ul class='pull-right'>
+<li class='hidden-mobile'>
+<a data-analytical href='/my/feed' id='my-feed'>
+<div class='badge'></div>
+My Feed
+</a>
+</li>
+<li class="hidden-mobile"><a class="hidden-mobile" href="https://reverb.com/blog">Blog</a></li>
+
+<li class='hidden-mobile'>
+<a class='active btn btn-nav btn-orange-simple clearfix sell' data-analytical data-selling data-source='nav_header' href='/listings/new'>
+<span class='fa fa-plus'></span>
+Sell
+</a>
+</li>
+
+<li><a class="hidden-mobile" data-analytical="true" data-source="generic_header_signup_link" href="/signup">Sign Up</a></li>
+<li><a class="hidden-mobile" data-registration="force-login" href="/signin">Log In</a></li>
+<li class='icon-nav sign-up-mobile fine-print hidden-desktop'>
+<a data-analytical="true" data-source="generic_header_signup_link_mobile" href="/signup">Sign Up</a>
+</li>
+<li class='icon-nav mobile-btn hidden-desktop'>
+<a class="mobile-drawer-menu-trigger mobile-tooltip-trigger fa fa-bars" data-mobile-tooltip="&lt;div class=&#39;menu-drawer&#39;&gt;
+&lt;ul&gt;
+&lt;li class=&quot;text-orange active&quot;&gt;&lt;a class=&quot;text-orange active&quot; href=&quot;/listings/new&quot;&gt;Sell &lt;span class=&#39;fa fa-plus&#39;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a data-analytical=&quot;true&quot; data-registration=&quot;force-registration&quot; data-source=&quot;generic_header_signup_link&quot; href=&quot;/signup&quot;&gt;Sign Up&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a data-registration=&quot;force-login&quot; href=&quot;/signin&quot;&gt;Log In&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&quot;has-divider&quot;&gt;&lt;a class=&quot;has-divider&quot; href=&quot;https://reverb.com/blog&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&#39;has-divider&#39;&gt;
+&lt;a href=&quot;/page/contact&quot;&gt;Help&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h4 class=&#39;text-grey margined-top align-center&#39;&gt;
+Get the Reverb App
+&lt;/h4&gt;
+&lt;a href=&quot;https://itunes.apple.com/us/app/reverb.com/id674604876&quot;&gt;&lt;img alt=&quot;Reverb iPhone app&quot; src=&quot;//d1g5417jjjo7sf.cloudfront.net/assets/promo/available-on-app-store-0477c7aec9955708a236a1b619a33e8b.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.reverb.app&amp;amp;hl=en&quot;&gt;&lt;img alt=&quot;Reverb Android app&quot; src=&quot;//d1g5417jjjo7sf.cloudfront.net/assets/promo/get-it-on-google-play-f248da6310bbb5e809b7003658df48ac.png&quot; /&gt;&lt;/a&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+" href="javascript:void(0);"></a>
+</li>
+</ul>
+<div class='hidden-mobile'>
+<form action='/marketplace' class='search_box_form pull-right' method='get'>
+<input class='search_box' data-autocomplete-auto-submit data-autocomplete='/autocomplete/search' name='query' placeholder='Search for gear' type='text'>
+<a class='search-button fa fa-search' rel='submit-form'></a>
+</form>
+
+</div>
+</nav>
+</div>
+</div>
+
+<div class='body-wrapper'>
+
+
+<div class='container '>
+
+<div id='flash-messages-container'>
+<span class='flash-message'></span>
+<a class='close-flash pull-right'>
+<span class='fa fa-remove'></span>
+</a>
+</div>
+
+
+<div class='full-width-header tri-margined-bottom hidden-mobile'>
+<div class='listing-form-header'>
+<div class='listing-form-hero'>
+<div class='row'>
+<div class='span4'>
+<div class='center'>
+<a href="/page/why-reverb"><img alt="Free to list" src="//d1g5417jjjo7sf.cloudfront.net/assets/listing-form/free-to-list-1550a1573dab20c0d3acf9465dacd770.png" />
+<h2 class='halfmargined-bottom'>3.5% fee if it sells</h2>
+<p>
+List as many items as you want for free.
+<br>
+Only pay if your listing sells on Reverb.
+</p>
+</a></div>
+</div>
+<div class='span4'>
+<div class='center'>
+<a href="/shops"><img alt="Reverb Seller Protection" src="//d1g5417jjjo7sf.cloudfront.net/assets/listing-form/sellers-count-hero-5a14d7fee6f3d1b141929ba66c8b54e2.png" />
+<h2 class='halfmargined-bottom'>Making money on Reverb</h2>
+<p>Whether you're selling 1 time or 100 times, you're in the company of over 35,000 sellers and over 300,000 Reverb customers.</p>
+</a></div>
+</div>
+<div class='span4'>
+<div class='center'>
+<a href="/page/reverb-protection"><img alt="Reverb Seller Protection" src="//d1g5417jjjo7sf.cloudfront.net/assets/listing-form/seller-protection-shield-a62f33698ac7122671f21f623a41a066.png" />
+<h2 class='halfmargined-bottom'>Reverb Seller Protection</h2>
+<p>
+Sell with the confidence that you've got knowledgeable gear experts on your side and you're shielded from fraudulent purchases.
+</p>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id='product'>
+<div class='listing-editor' id='content'>
+<h2 class='margined-top'>
+<span class='hidden-mobile'>One page.</span>
+No listing fees. Let's rock!
+</h2>
+
+<form accept-charset="UTF-8" action="/listings" autocomplete="off" class="simple_form product" enctype="multipart/form-data" id="new_product" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="G0d+syriXe/vwHdBpOMIbnZQvjpK3Zq1TSIxhjzA4aY=" /></div><div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>
+What type of gear are you selling?
+</h3>
+</div>
+<div class='module'>
+<div class='one-third-col with-gutter'>
+<div class='col'>
+<label for="product_product_type_id">* Main Category
+</label><select class="wide required chosen-select" data-force-validation="true" id="product_product_type_id" name="product[product_type_id]" rel="https://reverb.com/subcategories" required="required"><option value="">Select Category</option>
+<option value=""></option>
+<option value="11">Electric Guitars</option>
+<option value="12">Acoustic Guitars</option>
+<option value="13">Bass Guitars</option>
+<option value="14">Drum &amp; Percussion</option>
+<option value="15">Amps</option>
+<option value="17">Pro-Audio</option>
+<option value="16">Effects &amp; Pedals</option>
+<option value="19">Keyboards</option>
+<option value="21">Folk Instruments</option>
+<option value="26">Band and Orchestra</option>
+<option value="27">Other</option>
+<option value="28">Accessories</option>
+<option value="29">Parts</option>
+<option value="30">DJ and Lighting Gear</option></select>
+</div>
+<div class='col'>
+<div id='product_type_attributes_wrapper'></div>
+</div>
+</div>
+</div>
+</div>
+<aside class='listing-helper'>
+<div class='margined-bottom'>
+<h3>FREE to list!</h3>
+<ul class='fa-ul'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Use categories to help buyers
+<br>
+find your item.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Use the Price Guide for description <br> and
+<a href="/price-guide" tabindex="-1" target="_blank">pricing benchmarks.</a>
+</li>
+</ul>
+</div>
+</aside>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>
+What is it?
+</h3>
+</div>
+<div class='module'>
+<div class='row'>
+<div class='span2'>
+<label for="product_make"><span class="tooltip " title="If you don&#39;t know the make, use something &lt;br&gt; like &#39;Unknown&#39;, or &#39;Handmade&#39; as appropriate">* Make <span class='hint'>e.g. Fender</span>
+</span></label><input class="span2 required" id="product_make" maxlength="100" name="product[make]" required="required" size="100" type="text" />
+</div>
+<div class='span3'>
+<label for="product_model">* Model <span class='hint'>e.g. Strat</span>
+</label><input class="span3 required" id="product_model" maxlength="100" name="product[model]" required="required" size="100" type="text" />
+</div>
+<div class='span1'>
+<label for="product_year">Year
+<span class='hidden-mobile'><span class="tooltip " title="&lt;h4&gt;You can use fuzzy dates!&lt;/h4&gt;&lt;br/&gt; If you don&#39;t know the exact year your item was&lt;br/&gt; made, try a decade like &lt;strong&gt;90s&lt;/strong&gt; or &lt;strong&gt;1990s&lt;/strong&gt;, or a part of the &lt;br/&gt; decade, such as &lt;strong&gt;late-70s&lt;/strong&gt;, &lt;strong&gt;early 80s&lt;/strong&gt;, &lt;strong&gt;mid-2000s&lt;/strong&gt;.&lt;br/&gt; You can also use ranges like &lt;strong&gt;1953 - 1957&lt;/strong&gt;. "><span class='fa fa-question-circle'></span></span></span>
+</label><input class="span1 year-entry mobile-tooltip-subject" id="product_year" maxlength="20" name="product[year]" size="20" type="text" />
+<span class='hidden-desktop fa fa-question-circle mobile-tooltip-trigger' data-mobile-tooltip="&lt;h3&gt;You can use fuzzy dates!&lt;/h3&gt;&lt;p&gt;If you don't know the exact year your item was made, try a decade like &lt;strong&gt;90s&lt;/strong&gt; or &lt;strong&gt;1990s&lt;/strong&gt;, or a part of the decade, such as &lt;strong&gt;late-70s&lt;/strong&gt;, &lt;strong&gt;early 80s&lt;/strong&gt;, &lt;strong&gt;mid-2000s&lt;/strong&gt;. You can also use ranges like &lt;strong&gt;1953 - 1957&lt;/strong&gt;.&lt;/p&gt;"></span>
+</div>
+<div class='span2'>
+<label for="product_finish">Finish/Color
+</label><input class="span2" id="product_finish" maxlength="100" name="product[finish]" size="100" type="text" />
+</div>
+</div>
+<div class='row unmargined-bottom'>
+<div class='span6'>
+<div class='pull-right hidden muted small' data-character-counter>
+<span data-characters-left></span>
+characters left
+</div>
+<label for="product_title">* Listing Title <span class='hint'>Feel free to modify this.</span>
+</label><input class="span6 required unmargined-bottom" data-bind="detect-caps" data-character-limit="true" id="product_title" maxlength="100" name="product[title]" size="100" type="text" />
+<div class='all-caps-alert hidden' data-bind='caps-warning' data-punctuation-warning="Please don't use lots of ++**punctuation**++!!" data-too-many-caps="Whoa there! Please don't use SO MANY CAPS in your title."></div>
+</div>
+<div class='span2'>
+<label for="product_price">* Price
+<span class='hidden-mobile'><span class="tooltip " title="Buyers will be able to immediately&lt;br&gt; buy your item at this price."><span class='fa fa-question-circle'></span></span></span>
+</label><div class="prepend-icon-wrapper"><span class="prepend-icon"><span class='fa fa-usd'></span></span><input class="span2 required text mobile-tooltip-subject" id="product_price" name="product[price]" type="text" />
+<span class='hidden-desktop fa fa-question-circle mobile-tooltip-trigger' data-mobile-tooltip='&lt;h3&gt;Listing Price&lt;/h3&gt;&lt;p&gt;Buyers will be able to immediately buy your item at this price.&lt;/p&gt;'></span>
+</div><div class='sub-label offers_enabled align-center'>
+<div class='checklist mobile-tooltip-subject'>
+<input name="product[offers_enabled]" type="hidden" value="0" /><input checked="checked" class="inline" id="product_offers_enabled" name="product[offers_enabled]" type="checkbox" value="1" />
+<label class="inline normal" for="product_offers_enabled">Accept Offers
+<span class='hidden-mobile'>
+<span class="tooltip " title="Reverb recommends accepting offers on your listing &lt;br&gt; so you can negotiate with interested buyers and &lt;br&gt; increase your chances of making a sale. Enabling &lt;br&gt; Offers allows you to negotiate but does not &lt;br&gt; require you to accept any offers. &lt;br&gt;&lt;br&gt;Note: Auction Listings cannot accept offers."><span class='fa fa-question-circle'></span></span>
+</span>
+</label></div>
+<span class='hidden-desktop fa fa-question-circle mobile-tooltip-trigger' data-mobile-tooltip='&lt;h3&gt;Benefits of Accepting Offers&lt;/h3&gt;&lt;p&gt;Reverb recommends accepting offers on your listing so you can negotiate with interested buyers and increase your chances of making a sale. Enabling Offers allows you to negotiate but does not require you to accept any offers.&lt;/p&gt;&lt;p&gt;Note: Auction Listings cannot accept offers.&lt;/p&gt;'></span>
+</div>
+</div>
+</div>
+<div class='row unmargined-top'>
+<div class='span2'>
+<label for="product_condition">* Condition
+</label><select class="required chosen-select" data-force-validation="true" data-inventory-conditions="[7]" id="product-condition" name="product[condition]" required="required"><option value="">Select Condition</option>
+<option value=""></option>
+<option value="0">Non functioning</option>
+<option value="1">Poor</option>
+<option value="2">Fair</option>
+<option value="3">Good</option>
+<option value="4">Very good</option>
+<option value="5">Excellent</option>
+<option value="6">Mint</option>
+<option value="7">Brand New</option></select>
+</div>
+<div class='hidden' data-show-for-inventory-conditions>
+<div class='span2 extended'>
+<div class="input select required product_has_inventory"><label class="select required control-label" for="product-has-inventory"><abbr title="required">*</abbr> Inventory</label><select class="select required" id="product-has-inventory" name="product[has_inventory]"><option value=""></option>
+<option value="true">I have more than one</option>
+<option value="false">This is a unique item</option></select></div>
+</div>
+<div class='span2 narrowed' data-show-for-inventoried>
+<div class="input integer required product_inventory"><label class="integer required control-label" for="product-inventory"><abbr title="required">*</abbr> Total in stock</label><input class="numeric integer required span2 narrowed" id="product-inventory" name="product[inventory]" step="1" type="tel" /></div>
+</div>
+</div>
+<div class='span2 country-origin'>
+<label for="product_country_id">Where was it made?
+</label><select class="span2 chosen-select" id="product_country_id" name="product[country_id]"><option value="">Select a country</option>
+<option value=""></option>
+<option value="276">Australia</option>
+<option value="261">Canada</option>
+<option value="263">China</option>
+<option value="279">Denmark</option>
+<option value="267">France</option>
+<option value="265">Germany</option>
+<option value="270">India</option>
+<option value="269">Indonesia</option>
+<option value="268">Italy</option>
+<option value="262">Japan</option>
+<option value="264">Korea</option>
+<option value="260">Mexico</option>
+<option value="277">Russia</option>
+<option value="272">Spain</option>
+<option value="274">Sweden</option>
+<option value="275">Switzerland</option>
+<option value="278">Taiwan</option>
+<option value="266">United Kingdom</option>
+<option value="259">United States</option>
+<option value="271">Vietnam</option>
+<option value="273">Other</option></select>
+</div>
+</div>
+</div>
+<div class='module selling-selection btm-round-module'>
+<div class='advanced-options'>
+<div class='clearfix'>
+<div class='toggler pull-left display-block' rel='advanced-options'>
+<a href="">SKU entry, handmade...</a>
+</div>
+</div>
+<div class='toggleable padding-top-bottom' id='advanced-options'>
+<div class='fluid-row stack-mobile'>
+<div class='col-6'>
+<label>SKU <span class='hint'>To give unique identifiers to your listings.</span>
+</label><input class="wide" id="product_sku" name="product[sku]" type="text" />
+</div>
+<div class='col-6'>
+<div class='checklist extramargined-top align-right'>
+<input name="product[handmade]" type="hidden" value="0" /><input id="product_handmade" name="product[handmade]" type="checkbox" value="1" />
+<label class='strong inline' for='product_handmade'>
+I handmade this item
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class='listing-helper'>
+<div class='margined-bottom'>
+<h3>Only pay 3.5% when your item sells</h3>
+<ul class='fa-ul'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+$1 minimum and a $350 maximum fee.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Billed at end of the month via credit card.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Want to upload many listings at once? Ask us about
+<a data-analytical="true" data-registration-message="Import Listings." data-registration="force-registration" data-source="listing_imports" href="/my/imports" tabindex="-1">Inventory Management.</a>
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+<a data-analytical="true" data-slideout="#billing_example" href="" tabindex="-1">See how the 3.5% fee works <span class='fa fa-angle-down'></span></a>
+</li>
+</ul>
+</div>
+<div class='module hidden margined-bottom' id='billing_example'>
+<h4 class='halfmargined-bottom'>Here's an example:</h4>
+<ol>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+You sell an instrument for $650.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+The buyer pays via PayPal or credit card and the order is marked paid.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+You're charged $22.75 ($650 x 3.5%) at the end of the month.
+</li>
+</ol>
+</div>
+<div class='hidden' id='pg_match'>
+<h4 class='priceguide-icon halfmargined-bottom'>
+From the Price Guide
+<span class="tooltip " title="Here&#39;s the typical price range for this model based&lt;br&gt; on recent sales data. This range is meant for items in&lt;br&gt; at least very good, all-original condition."><span class='fa fa-question-circle'></span></span>
+</h4>
+
+<div class='module'>
+<div class='matched-pg'></div>
+</div>
+</div>
+</aside>
+</div>
+<div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>
+What does it look like?
+</h3>
+</div>
+<div class='module btm-round-module'>
+<div class='dropbox'>
+<table data-show-image-dimension-warning style='width: 100%'>
+<tr>
+<td class='hidden' rel='photo-container'>
+<em class='drag-message muted'>
+Drag your images to reorder them.
+<br>
+The one on the upper left will be the primary photo.
+</em>
+</td>
+<td class='dropzone'>
+<label class='message' for='uploaded_photos' rel='message'>
+<span class='no-files-message'>
+<span class='hidden' rel='dropbox-non-ie-message'>
+<span class='hidden-mobile'><span class='text-blue'>Click here</span> or drag photos of your gear into this box.</span><span class='hidden-desktop text-blue'>Tap here to add photos of your gear.</span>
+</span>
+<span class='hidden' rel='dropbox-ie-message'>
+<span class='clickable'>Double click here</span>
+to add photos.
+</span>
+<span class='hidden' rel='dropbox-firefox-message'>
+<span class='clickable'>Click here</span>
+to add photos.
+</span>
+</span>
+</label>
+<p class='dropbox-ie hidden margined-bottom'></p>
+<div class="input attachinary optional product_photos"><label class="attachinary optional control-label" for="uploaded_photos">Photos</label><input class="attachinary optional attachinary-input" data-attachinary="{&quot;accessible&quot;:true,&quot;cloudinary&quot;:{&quot;eager_async&quot;:1,&quot;transformation&quot;:[&quot;max_1600&quot;,{&quot;effect&quot;:&quot;contrast:5&quot;},{&quot;effect&quot;:&quot;unsharp_mask:50&quot;},{&quot;flags&quot;:&quot;progressive&quot;}],&quot;eager&quot;:[{&quot;quality&quot;:null,&quot;angle&quot;:&quot;exif&quot;,&quot;flags&quot;:&quot;progressive&quot;,&quot;crop&quot;:&quot;thumb&quot;,&quot;width&quot;:96,&quot;height&quot;:96,&quot;gravity&quot;:&quot;south&quot;},{&quot;quality&quot;:85,&quot;angle&quot;:&quot;exif&quot;,&quot;flags&quot;:&quot;progressive&quot;,&quot;crop&quot;:&quot;fill&quot;,&quot;width&quot;:226},{&quot;quality&quot;:85,&quot;angle&quot;:&quot;exif&quot;,&quot;flags&quot;:&quot;progressive&quot;,&quot;crop&quot;:&quot;limit&quot;,&quot;width&quot;:620,&quot;height&quot;:620}],&quot;tags&quot;:[&quot;production_env&quot;,&quot;attachinary_tmp&quot;]},&quot;single&quot;:false,&quot;scope&quot;:&quot;photos&quot;,&quot;plural&quot;:&quot;photos&quot;,&quot;singular&quot;:&quot;photo&quot;,&quot;files&quot;:[]}" data-form-data="{&quot;timestamp&quot;:1425639924,&quot;transformation&quot;:&quot;t_max_1600/e_contrast:5/e_unsharp_mask:50/fl_progressive&quot;,&quot;callback&quot;:&quot;https://reverb.com/attachinary/cors&quot;,&quot;eager&quot;:&quot;a_exif,c_thumb,fl_progressive,g_south,h_96,w_96|a_exif,c_fill,fl_progressive,q_85,w_226|a_exif,c_limit,fl_progressive,h_620,q_85,w_620&quot;,&quot;eager_async&quot;:1,&quot;tags&quot;:&quot;production_env,attachinary_tmp&quot;,&quot;signature&quot;:&quot;c7034eff062e2d9a72df399c5720f4dbb60a1c49&quot;,&quot;api_key&quot;:&quot;434762629765715&quot;}" data-url="https://api.cloudinary.com/v1_1/reverb/auto/upload" id="uploaded_photos" multiple="multiple" name="product[photos][]" type="file" /></div>
+</td>
+</tr>
+</table>
+<div class='progressbar hidden' rel='dropbox-progress-bar'></div>
+<script id='attachinary-template' type='text/template'>
+<ul>
+<% for(var i=0; i<files.length; i++){ %>
+  <li>
+    <img
+      data-orig-width='<%= files[i].width %>',
+      data-orig-height='<%= files[i].height %>',
+      data-public-id='<%= files[i].public_id %>',
+      src="<%= $.cloudinary.url(files[i].public_id, { "version": files[i].version, "angle": 'exif', "format": 'jpg', "crop": 'thumb', "gravity": 'south', "width": 96, "height": 96 }) %>"
+      alt="" width="96" height="96" />
+    <a href="#" class="dropzone-remove" data-remove="<%= files[i].public_id %>">Remove</a>
+  </li>
+<% } %>
+</ul>
+
+</script>
+
+</div>
+<p class='small center hidden' rel='dragdrop-disabled'>
+Want to drag and drop or upload multiple photos?
+Download <a href="https://www.google.com/intl/en/chrome/browser/">Google Chrome</a> for free
+for a better browsing experience.
+</p>
+
+<label class='margined-top'>
+<span class='fa fa-play-circle'></span>
+Link to YouTube video <span class='hint'>just post the link and we'll handle the embedding for you</span>
+</label>
+<input class="wide" id="product_video_link_attributes_link" name="product[video_link_attributes][link]" type="text" />
+<label>
+<span class='fa fa-music'></span>
+Link to SoundCloud track <span class='hint'>just post the link and we'll handle the embedding for you</span>
+</label>
+<input class="wide unmargined-bottom" data-soundcloud-link="true" id="product_soundcloud_link_attributes_link" name="product[soundcloud_link_attributes][link]" type="text" />
+<div class='hidden' data-soundcloud-verification-spinner>
+<span class='fa fa-cog fa fa-spin'></span> Verifying link
+</div>
+<div class='hidden fail-text' data-soundcloud-verification-link-error>
+<span class='fa fa-times'></span> Check yourself! That Soundcloud link is not valid.
+</div>
+<div class='hidden fail-text' data-soundcloud-verification-streamable-error>
+<span class='fa fa-times'></span> This track isn't available outside SoundCloud! Update your settings on SoundCloud to use this track.
+</div>
+</div>
+</div>
+<aside class='listing-helper hint-faded'>
+<h3>Great photos sell faster</h3>
+<ul class='fa-ul margined-bottom' data-track-clicks='listing_photo_tips'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+<a href="/blog/how-to-make-a-great-product-listing#greatPhotos" tabindex="-1" target="_blank">Read our tips for top-notch photos.</a>
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Take at least two close up photos and a full length shot.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+High-resolution photos look better.
+</li>
+</ul>
+<a href="https://itunes.apple.com/us/app/reverb.com/id674604876" tabindex="-1"><img alt="Reverb iPhone app listing ad" src="//d1g5417jjjo7sf.cloudfront.net/assets/promo/snap-photos-17c3a1f924c5bb642683d15a283159ce.png" /></a>
+<div class='android-app-listing-ad'>
+<a href="https://play.google.com/store/apps/details?id=com.reverb.app&amp;hl=en" tabindex="-1"><img alt="Android App" class="wide" src="//d1g5417jjjo7sf.cloudfront.net/assets/promo/get-it-on-google-play-f248da6310bbb5e809b7003658df48ac.png" /></a>
+</div>
+</aside>
+</div>
+<div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>
+How would you describe it?
+</h3>
+</div>
+<div class='module btm-round-module'>
+<div class='row'>
+<div class='span8 description' id='wysihtml5-toolbar'>
+<label>* Describe your item:</label>
+<ul class="wysihtml5-toolbar">
+  <li>
+    <div class="btn-group">
+      <a tabindex='-1' class="btn btn-small" data-wysihtml5-command="bold" title="CTRL+B" href="javascript:;" unselectable="on">Bold</a>
+      <a tabindex='-1' class="btn btn-small" data-wysihtml5-command="italic" title="CTRL+I" href="javascript:;" unselectable="on">Italic</a>
+      <a tabindex='-1' class="btn btn-small" data-wysihtml5-command="underline" title="CTRL+U" href="javascript:;" unselectable="on">Underline</a>
+    </div>
+  </li>
+  <li>
+    <div class="btn-group">
+      <a tabindex='-1' class="btn btn-small" data-wysihtml5-command="insertUnorderedList" title="Unordered List" unselectable="on"><span class="fa fa-list"></span> List</a>
+    </div>
+  </li>
+</ul>
+
+<textarea class="span8 code required" data-force-validation="true" id="product_description" input_html="{:value=&gt;nil}" name="product[description]" required="required" wrap="off">
+</textarea>
+<ul class='wysihtml5-toolbar'>
+<div class='alert alert-info dialog' data-wysihtml5-dialog='createLink' style='display: none;'>
+<div class='margined-top'>
+<input class='pull-left margined-right' data-wysihtml5-dialog-field='href' type='text' value='http://'>
+<a class='btn btn-primary btn-small' data-wysihtml5-dialog-action='save' tabindex='-1'>Insert Link</a>
+&nbsp;
+<a data-wysihtml5-dialog-action='cancel' tabindex='-1'>Cancel</a>
+</div>
+</div>
+</ul>
+
+</div>
+<div class='span8 clearfix'>
+<label>
+Tags <span class='hint'>make your listing more searchable. Use commas to separate tags.</span>
+</label>
+<input class="span8" id="product_tags" maxlength="255" name="product[tags]" size="255" type="text" />
+</div>
+</div>
+</div>
+</div>
+<aside class='listing-helper hint-faded'>
+<div class='hidden-mobile'>
+<img alt="Reverb jump trans noamp 170" src="//d1g5417jjjo7sf.cloudfront.net/assets/promo/reverb_jump_trans_noamp_170-bdaec7f9c990618a78c377517b952a91.png" style="height:170px; position:absolute; margin-left:240px; margin-top: -29px" />
+</div>
+<h3>Make your listing rock!</h3>
+<p class='alert alert-info'>Well written listings with great images sell quicker and higher.</p>
+<ul class='fa-ul margined-bottom'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Check out guide to
+<a href="/blog/gear-conditions-and-what-they-mean" tabindex="-1" target="_blank">gear conditions.</a>
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+See how to write a full and accurate
+<a href="/blog/how-to-make-a-great-product-listing#fullDescription" tabindex="-1" target="_blank">description.</a>
+</li>
+</ul>
+</aside>
+</div>
+<div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>
+How will you ship it?
+</h3>
+</div>
+<div class='module'>
+<div class='shipping-error alert alert-error clearfix hidden' id='shipping-choose'>
+Please choose either local or flat rate shipping.
+</div>
+<div class='shipping-error alert alert-error clearfix hidden' id='shipping-rate-missing'>
+Please enter your shipping cost to the United States.
+</div>
+<div class='row' id='shipping'>
+<div class='span4 extended'>
+<span class='hidden-desktop fa fa-question-circle mobile-tooltip-trigger pull-right' data-mobile-tooltip='&lt;h3&gt;Shipping Methods&lt;/h3&gt;&lt;p&gt;You can negotiate shipping as part of the offer process.&lt;/p&gt;'></span>
+<label>
+Shipping Methods
+</label>
+<br class='hidden-desktop'>
+<div>
+<div class='checklist'>
+<input name="product[shipping_local]" type="hidden" value="0" /><input id="product_shipping_local" name="product[shipping_local]" type="checkbox" value="1" />
+<label class="checkbox" for="product_shipping_local">Local Pickup
+</label></div>
+<div class='checklist'>
+<input name="product[shipping_us]" type="hidden" value="0" /><input checked="checked" data-bind="shipping-enabled" data-slideout=".shipping-input" id="product_shipping_us" name="product[shipping_us]" type="checkbox" value="1" />
+<label class="checkbox" for="product_shipping_us"><div class='hidden-mobile'>
+<span class="tooltip " title="You can negotiate shipping&lt;br&gt; as part of the offer process.">Shipping <span class='fa fa-info-circle'></span>
+</span></div>
+<div class='hidden-desktop'>
+Shipping
+</div>
+</label></div>
+</div>
+<div class='shipping-input' data-bind='product-shipping-fields'>
+<table class='alt-row-table margined-bottom' data-bind='existing-shipping-rates'>
+<!-- we need the extra tr to maintain alternating rows -->
+<tr></tr>
+<tr class='bg-no'>
+<th>Ships To</th>
+<th>* Shipping Cost</th>
+<th></th>
+</tr>
+<tr class='table-row'>
+<td>United States</td>
+<td>
+<input id="product_shipping_rates__region_type" name="product[shipping][rates][][region_type]" type="hidden" value="country" />
+<input id="product_shipping_rates__region_code" name="product[shipping][rates][][region_code]" type="hidden" value="US" />
+<div class="prepend-icon-wrapper"><span class="prepend-icon"><span class='fa fa-usd'></span></span><input class="wide extended text required" data-shipping-country-code="US" id="product_shipping_rates_country_US" name="product[shipping][rates][][rate]" placeholder="" type="text" />
+</div></td>
+<td></td>
+</tr>
+<!-- we need the extra tr to maintain alternating rows -->
+<tr></tr>
+<tr class='bg-no' data-hide-on-click data-slideout='.international-rates'>
+<td class='align-center' colspan='3'>
+<a href="#">Add Shipping Rate</a>
+</td>
+</tr>
+<tr data-new-row></tr>
+</table>
+<table class='alt-row-table extramargined-bottom'>
+<!-- we need the extra tr to maintain alternating rows -->
+<tr></tr>
+<tr class='bg-no hidden international-rates'>
+</tr>
+<!-- Add new shipping rate form -->
+<tr class='hidden international-rates' data-new-shipping-rate>
+<td class='has-select'>
+</optgroup></select>
+</td>
+<td>
+<div class="prepend-icon-wrapper"><span class="prepend-icon"><span class='fa fa-usd'></span></span><input class="wide extended text" data-bind="new-shipping-rate-price" id="new_rate" name="new_rate" placeholder="" type="text" value="" />
+</div></td>
+<td></td>
+</tr>
+<tr class='bg-no hidden international-rates' data-new-shipping-rate>
+<td></td>
+<td>
+<a class="btn btn-small btn-blue wide" data-bind="add-shipping-rate" href="#"><span class='fa fa-plus-circle'></span> Add Rate</a>
+</td>
+<td></td>
+</tr>
+</table>
+</div>
+<script id='new-rate-template' type='text/template'>
+<tr class='table-row'>
+<td><%= country_name %></td>
+<td>
+<input id="product_shipping_rates__region_type" name="product[shipping][rates][][region_type]" type="hidden" value="<%= region_type %>" />
+<input id="product_shipping_rates__region_code" name="product[shipping][rates][][region_code]" type="hidden" value="<%= region_code %>" />
+<div class="prepend-icon-wrapper"><span class="prepend-icon"><span class='fa fa-usd'></span></span><input class="wide extended text required" name="product[shipping][rates][][rate]" type="text" value="<%= shipping_rate %>" />
+</div></td>
+<td>
+<a class='fa fa-remove hidden-mobile' data-remove-parent='.table-row'></a>
+<a class='fa fa-remove hidden-desktop huge' data-remove-parent='.table-row'></a>
+</td>
+</tr>
+<tr data-new-row></tr>
+</script>
+
+</div>
+<div class='span3 half-extended pull-right'>
+<p class='extramargined-bottom hidden-desktop'>
+<em class='shipping-suggestion hidden'></em>
+</p>
+<label for="product_shipping_policy">Shipping Policy
+</label><textarea class="shipping-policy simple-textarea" id="product_shipping_policy" name="product[shipping_policy]" rows="5">
+I will ship with tracking to the continental United States. Alaska, Hawaii, and international shipments may incur additional charges.</textarea>
+<p class='hidden-mobile'>
+<em class='shipping-suggestion hidden'></em>
+</p>
+</div>
+</div>
+<hr>
+<div class='row'>
+<div class='span8'>
+<label>Where are you shipping from?</label>
+</div>
+<div class='reverse-block'>
+<div class='span2 reverse-bottom'>
+<label for="product_item_city">* City
+</label><input class="span2" data-shipping-estimate-field="from-locality" id="product_item_city" label="false" maxlength="100" name="product[item_city]" required="required" size="100" type="text" />
+</div>
+<div class='span3'>
+<label>* State/Province
+</label><div data-region-required='true' data-state-wrapper id='state-wrapper'>
+<select autocomplete="region" class="nochosen " data-autofill-address="region" data-shipping-estimate-field="from-region" id="product_item_state" name="product[item_state]" required="required"><option value=""></option>
+<option value="AL">Alabama</option>
+<option value="AK">Alaska</option>
+<option value="AS">American Samoa</option>
+<option value="AZ">Arizona</option>
+<option value="AR">Arkansas</option>
+<option value="AE">Armed Forces Africa, Canada, Europe, Middle East</option>
+<option value="AA">Armed Forces Americas (except Canada)</option>
+<option value="AP">Armed Forces Pacific</option>
+<option value="CA">California</option>
+<option value="CO">Colorado</option>
+<option value="CT">Connecticut</option>
+<option value="DE">Delaware</option>
+<option value="DC">District of Columbia</option>
+<option value="FL">Florida</option>
+<option value="GA">Georgia</option>
+<option value="GU">Guam</option>
+<option value="HI">Hawaii</option>
+<option value="ID">Idaho</option>
+<option value="IL">Illinois</option>
+<option value="IN">Indiana</option>
+<option value="IA">Iowa</option>
+<option value="KS">Kansas</option>
+<option value="KY">Kentucky</option>
+<option value="LA">Louisiana</option>
+<option value="ME">Maine</option>
+<option value="MD">Maryland</option>
+<option value="MA">Massachusetts</option>
+<option value="MI">Michigan</option>
+<option value="MN">Minnesota</option>
+<option value="MS">Mississippi</option>
+<option value="MO">Missouri</option>
+<option value="MT">Montana</option>
+<option value="NE">Nebraska</option>
+<option value="NV">Nevada</option>
+<option value="NH">New Hampshire</option>
+<option value="NJ">New Jersey</option>
+<option value="NM">New Mexico</option>
+<option value="NY">New York</option>
+<option value="NC">North Carolina</option>
+<option value="ND">North Dakota</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="OH">Ohio</option>
+<option value="OK">Oklahoma</option>
+<option value="OR">Oregon</option>
+<option value="PA">Pennsylvania</option>
+<option value="PR">Puerto Rico</option>
+<option value="RI">Rhode Island</option>
+<option value="SC">South Carolina</option>
+<option value="SD">South Dakota</option>
+<option value="TN">Tennessee</option>
+<option value="TX">Texas</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UT">Utah</option>
+<option value="VT">Vermont</option>
+<option value="VI">Virgin Islands</option>
+<option value="VA">Virginia</option>
+<option value="WA">Washington</option>
+<option value="WV">West Virginia</option>
+<option value="WI">Wisconsin</option>
+<option value="WY">Wyoming</option></select>
+</div>
+
+</div>
+<div class='span2 extended reverse-top'>
+<a data-bind="change-country">Change Country</a><span class="hidden" data-bind="change-country-select"><label>* Country</label><select data-bind="country-select" data-field-prefix="product" data-region-field-name="item_state" data-shipping-estimate-field="from-countrycode" id="product_item_country" name="product[item_country]" prompt="Please select a country"><option value="US">United States</option>
+<option value="CA">Canada</option><option disabled>-------------</option><option value="AF">Afghanistan</option>
+<option value="AL">Albania</option>
+<option value="DZ">Algeria</option>
+<option value="AS">American Samoa</option>
+<option value="AD">Andorra</option>
+<option value="AO">Angola</option>
+<option value="AI">Anguilla</option>
+<option value="AQ">Antarctica</option>
+<option value="AG">Antigua and Barbuda</option>
+<option value="AR">Argentina</option>
+<option value="AM">Armenia</option>
+<option value="AW">Aruba</option>
+<option value="AU">Australia</option>
+<option value="AT">Austria</option>
+<option value="AZ">Azerbaijan</option>
+<option value="BS">Bahamas</option>
+<option value="BH">Bahrain</option>
+<option value="BD">Bangladesh</option>
+<option value="BB">Barbados</option>
+<option value="BY">Belarus</option>
+<option value="BE">Belgium</option>
+<option value="BZ">Belize</option>
+<option value="BJ">Benin</option>
+<option value="BM">Bermuda</option>
+<option value="BT">Bhutan</option>
+<option value="BO">Bolivia, Plurinational State of</option>
+<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+<option value="BA">Bosnia and Herzegovina</option>
+<option value="BW">Botswana</option>
+<option value="BV">Bouvet Island</option>
+<option value="BR">Brazil</option>
+<option value="IO">British Indian Ocean Territory</option>
+<option value="BN">Brunei Darussalam</option>
+<option value="BG">Bulgaria</option>
+<option value="BF">Burkina Faso</option>
+<option value="BI">Burundi</option>
+<option value="KH">Cambodia</option>
+<option value="CM">Cameroon</option>
+<option value="CA">Canada</option>
+<option value="CV">Cape Verde</option>
+<option value="KY">Cayman Islands</option>
+<option value="CF">Central African Republic</option>
+<option value="TD">Chad</option>
+<option value="CL">Chile</option>
+<option value="CN">China</option>
+<option value="CX">Christmas Island</option>
+<option value="CC">Cocos (Keeling) Islands</option>
+<option value="CO">Colombia</option>
+<option value="KM">Comoros</option>
+<option value="CG">Congo</option>
+<option value="CD">Congo, The Democratic Republic of the</option>
+<option value="CK">Cook Islands</option>
+<option value="CR">Costa Rica</option>
+<option value="HR">Croatia</option>
+<option value="CU">Cuba</option>
+<option value="CW">Curaçao</option>
+<option value="CY">Cyprus</option>
+<option value="CZ">Czech Republic</option>
+<option value="CI">Côte d&#39;Ivoire</option>
+<option value="DK">Denmark</option>
+<option value="DJ">Djibouti</option>
+<option value="DM">Dominica</option>
+<option value="DO">Dominican Republic</option>
+<option value="EC">Ecuador</option>
+<option value="EG">Egypt</option>
+<option value="SV">El Salvador</option>
+<option value="GQ">Equatorial Guinea</option>
+<option value="ER">Eritrea</option>
+<option value="EE">Estonia</option>
+<option value="ET">Ethiopia</option>
+<option value="FK">Falkland Islands (Malvinas)</option>
+<option value="FO">Faroe Islands</option>
+<option value="FJ">Fiji</option>
+<option value="FI">Finland</option>
+<option value="FR">France</option>
+<option value="GF">French Guiana</option>
+<option value="PF">French Polynesia</option>
+<option value="TF">French Southern Territories</option>
+<option value="GA">Gabon</option>
+<option value="GM">Gambia</option>
+<option value="GE">Georgia</option>
+<option value="DE">Germany</option>
+<option value="GH">Ghana</option>
+<option value="GI">Gibraltar</option>
+<option value="GR">Greece</option>
+<option value="GL">Greenland</option>
+<option value="GD">Grenada</option>
+<option value="GP">Guadeloupe</option>
+<option value="GU">Guam</option>
+<option value="GT">Guatemala</option>
+<option value="GG">Guernsey</option>
+<option value="GN">Guinea</option>
+<option value="GW">Guinea-Bissau</option>
+<option value="GY">Guyana</option>
+<option value="HT">Haiti</option>
+<option value="HM">Heard Island and McDonald Islands</option>
+<option value="VA">Holy See (Vatican City State)</option>
+<option value="HN">Honduras</option>
+<option value="HK">Hong Kong</option>
+<option value="HU">Hungary</option>
+<option value="IS">Iceland</option>
+<option value="IN">India</option>
+<option value="ID">Indonesia</option>
+<option value="IR">Iran, Islamic Republic of</option>
+<option value="IQ">Iraq</option>
+<option value="IE">Ireland</option>
+<option value="IM">Isle of Man</option>
+<option value="IL">Israel</option>
+<option value="IT">Italy</option>
+<option value="JM">Jamaica</option>
+<option value="JP">Japan</option>
+<option value="JE">Jersey</option>
+<option value="JO">Jordan</option>
+<option value="KZ">Kazakhstan</option>
+<option value="KE">Kenya</option>
+<option value="KI">Kiribati</option>
+<option value="KP">Korea, Democratic People&#39;s Republic of</option>
+<option value="KR">Korea, Republic of</option>
+<option value="KW">Kuwait</option>
+<option value="KG">Kyrgyzstan</option>
+<option value="LA">Lao People&#39;s Democratic Republic</option>
+<option value="LV">Latvia</option>
+<option value="LB">Lebanon</option>
+<option value="LS">Lesotho</option>
+<option value="LR">Liberia</option>
+<option value="LY">Libya</option>
+<option value="LI">Liechtenstein</option>
+<option value="LT">Lithuania</option>
+<option value="LU">Luxembourg</option>
+<option value="MO">Macao</option>
+<option value="MK">Macedonia, Republic of</option>
+<option value="MG">Madagascar</option>
+<option value="MW">Malawi</option>
+<option value="MY">Malaysia</option>
+<option value="MV">Maldives</option>
+<option value="ML">Mali</option>
+<option value="MT">Malta</option>
+<option value="MH">Marshall Islands</option>
+<option value="MQ">Martinique</option>
+<option value="MR">Mauritania</option>
+<option value="MU">Mauritius</option>
+<option value="YT">Mayotte</option>
+<option value="MX">Mexico</option>
+<option value="FM">Micronesia, Federated States of</option>
+<option value="MD">Moldova, Republic of</option>
+<option value="MC">Monaco</option>
+<option value="MN">Mongolia</option>
+<option value="ME">Montenegro</option>
+<option value="MS">Montserrat</option>
+<option value="MA">Morocco</option>
+<option value="MZ">Mozambique</option>
+<option value="MM">Myanmar</option>
+<option value="NA">Namibia</option>
+<option value="NR">Nauru</option>
+<option value="NP">Nepal</option>
+<option value="NL">Netherlands</option>
+<option value="NC">New Caledonia</option>
+<option value="NZ">New Zealand</option>
+<option value="NI">Nicaragua</option>
+<option value="NE">Niger</option>
+<option value="NG">Nigeria</option>
+<option value="NU">Niue</option>
+<option value="NF">Norfolk Island</option>
+<option value="MP">Northern Mariana Islands</option>
+<option value="NO">Norway</option>
+<option value="OM">Oman</option>
+<option value="PK">Pakistan</option>
+<option value="PW">Palau</option>
+<option value="PS">Palestinian Territory, Occupied</option>
+<option value="PA">Panama</option>
+<option value="PG">Papua New Guinea</option>
+<option value="PY">Paraguay</option>
+<option value="PE">Peru</option>
+<option value="PH">Philippines</option>
+<option value="PN">Pitcairn</option>
+<option value="PL">Poland</option>
+<option value="PT">Portugal</option>
+<option value="QA">Qatar</option>
+<option value="RO">Romania</option>
+<option value="RU">Russian Federation</option>
+<option value="RW">Rwanda</option>
+<option value="RE">Réunion</option>
+<option value="BL">Saint Barthélemy</option>
+<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+<option value="KN">Saint Kitts and Nevis</option>
+<option value="LC">Saint Lucia</option>
+<option value="MF">Saint Martin (French part)</option>
+<option value="PM">Saint Pierre and Miquelon</option>
+<option value="VC">Saint Vincent and the Grenadines</option>
+<option value="WS">Samoa</option>
+<option value="SM">San Marino</option>
+<option value="ST">Sao Tome and Principe</option>
+<option value="SA">Saudi Arabia</option>
+<option value="SN">Senegal</option>
+<option value="RS">Serbia</option>
+<option value="SC">Seychelles</option>
+<option value="SL">Sierra Leone</option>
+<option value="SG">Singapore</option>
+<option value="SX">Sint Maarten (Dutch part)</option>
+<option value="SK">Slovakia</option>
+<option value="SI">Slovenia</option>
+<option value="SB">Solomon Islands</option>
+<option value="SO">Somalia</option>
+<option value="ZA">South Africa</option>
+<option value="GS">South Georgia and the South Sandwich Islands</option>
+<option value="SS">South Sudan</option>
+<option value="ES">Spain</option>
+<option value="LK">Sri Lanka</option>
+<option value="SD">Sudan</option>
+<option value="SR">Suriname</option>
+<option value="SJ">Svalbard and Jan Mayen</option>
+<option value="SZ">Swaziland</option>
+<option value="SE">Sweden</option>
+<option value="CH">Switzerland</option>
+<option value="SY">Syrian Arab Republic</option>
+<option value="TW">Taiwan</option>
+<option value="TJ">Tajikistan</option>
+<option value="TZ">Tanzania, United Republic of</option>
+<option value="TH">Thailand</option>
+<option value="TL">Timor-Leste</option>
+<option value="TG">Togo</option>
+<option value="TK">Tokelau</option>
+<option value="TO">Tonga</option>
+<option value="TT">Trinidad and Tobago</option>
+<option value="TN">Tunisia</option>
+<option value="TR">Turkey</option>
+<option value="TM">Turkmenistan</option>
+<option value="TC">Turks and Caicos Islands</option>
+<option value="TV">Tuvalu</option>
+<option value="UG">Uganda</option>
+<option value="UA">Ukraine</option>
+<option value="AE">United Arab Emirates</option>
+<option value="GB">United Kingdom</option>
+<option value="US">United States</option>
+<option value="UM">United States Minor Outlying Islands</option>
+<option value="UY">Uruguay</option>
+<option value="UZ">Uzbekistan</option>
+<option value="VU">Vanuatu</option>
+<option value="VE">Venezuela, Bolivarian Republic of</option>
+<option value="VN">Viet Nam</option>
+<option value="VG">Virgin Islands, British</option>
+<option value="VI">Virgin Islands, U.S.</option>
+<option value="WF">Wallis and Futuna</option>
+<option value="EH">Western Sahara</option>
+<option value="YE">Yemen</option>
+<option value="ZM">Zambia</option>
+<option value="ZW">Zimbabwe</option>
+<option value="AX">Åland Islands</option></select></span>
+</div>
+</div>
+</div>
+</div>
+<div class='selling-selection btm-round-module hidden' id='shipping-estimator'>
+<p class='padding-top-bottom'>
+<a class="btn btn-link" data-analytical="true" data-disclosure-toggle="true" data-slideout=".shipping-estimator" href="" tabindex="-1">U.S. Shipping Estimator <span class='fa fa-caret-down'></span></a>
+</p>
+<div class='shipping-estimator hidden'>
+<h4 class='halfmargined-bottom'>Example Packaged Dimensions &amp; Weights</h4>
+<div class='five-col with-gutter strong extramargined-bottom'>
+<a class="col gear-weight" data-package-height-inches="1" data-package-length-inches="8.5" data-package-preset-link="true" data-package-weight-pounds="0.75" data-package-width-inches="11" href="#"><?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="svg-cable" viewBox="0 0 100 100">
+  <g>
+    <path fill="#414042" d="M85.3,18.3c0.9,0.7,1.6,1.6,1.6,2c0,0-8,9.9-9.7,12c0.5,0.9-0.4,2.1-0.4,2.1c0.5,0.4,0.2,0.8-0.6,1.8
+      l-5.2,6.4c-0.6-0.9-1.7-2.1-3-3.1c-1.2-1-2.6-1.9-3.6-2.3l5.2-6.4c0.8-1,1.1-1.4,1.6-1c0,0,1-1.1,2-0.8c1.7-2.1,9.7-12,9.7-12
+      C83.4,17,84.4,17.6,85.3,18.3z"></path>
+    <path fill="#414042" d="M66.8,41.2c1.2,1,2.4,2.2,3,3.1l-9.1,11.2c-0.6-0.9-1.7-2.1-3-3.1c-1.2-1-2.6-1.9-3.6-2.3L63.1,39
+      C64.1,39.4,65.5,40.2,66.8,41.2z"></path>
+    <path fill="#414042" d="M92.8,9c0.7,0.6-0.4,4.1-0.8,4.6c-0.4,0.5-1.4,0.5-1.7,0.9l-0.5,0.7c-0.2,0.2,0.6,1-0.1,1.8L88,19.1
+      c0-0.5-0.7-1.3-1.6-2c-0.9-0.7-1.9-1.3-2.3-1.2l1.7-2.1c0.7-0.8,1.6-0.2,1.8-0.5l0.5-0.7c0.3-0.4,0.1-1.3,0.5-1.8
+      C88.9,10.3,92.1,8.4,92.8,9z"></path>
+    <path fill="#414042" d="M59.3,57.2l-5.9,7.3c-0.9,1.1-2.2,1.4-3,0.9L39.1,79.3c-0.6,0.8-1.5,1.1-2.6,1.1c-5.3,6.6-9.8,9.6-14,10.5
+      c-4,0.9-8-0.3-12.4-4c-1-0.8-2-1.7-3.1-2.8c-0.4-0.4,0.1-0.9,0.6-1.5C8.3,82,8.6,81.6,9,82c5.2,5.2,9.6,7.2,13.7,6.3
+      c3.5-0.8,7.3-3.5,12-9.3c-0.3-0.7-0.1-2,0.5-2.7l11.3-13.9c-0.7-0.7-0.6-2.1,0.2-3.1l5.9-7.3c1,0.4,2.4,1.3,3.6,2.3
+      C57.6,55.1,58.7,56.3,59.3,57.2z"></path>
+  </g>
+</svg>
+
+<p class='small align-center'>
+Cable - 0.75 lbs
+<br>
+8.5 x 11 x 1 in
+</p>
+</a><a class="col gear-weight" data-package-height-inches="4" data-package-length-inches="8" data-package-preset-link="true" data-package-weight-pounds="1.5" data-package-width-inches="5" href="#"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="svg-pedal" viewBox="0 0 100 100">
+<g id="Your_Icon">
+	<g>
+		<path fill="#414042" d="M68.9,43.7H31.2c-1.3,0-2.4,1.1-2.4,2.4v36.5c0,1.3,1.1,2.4,2.4,2.4h37.7c1.3,0,2.4-1.1,2.4-2.4V46.1
+			C71.3,44.7,70.2,43.7,68.9,43.7z M50.1,72.6c-1.9,0-3.4-1.5-3.4-3.4c0-1.9,1.5-3.4,3.4-3.4s3.4,1.5,3.4,3.4
+			C53.4,71.1,51.9,72.6,50.1,72.6z"></path>
+		<path fill="#414042" d="M68.9,15H31.2c-1.3,0-2.4,1.1-2.4,2.4v21.8c0,1.3,1.1,2.4,2.4,2.4h37.7c1.3,0,2.4-1.1,2.4-2.4V17.4
+			C71.3,16.1,70.2,15,68.9,15z M37.7,33c-2.5,0-4.6-2-4.6-4.6c0-2.5,2-4.6,4.6-4.6c0.9,0,1.7,0.2,2.4,0.7c0.1,0.1,0.2,0.2,0,0.4
+			c-0.2,0.2-2.9,2.9-2.9,2.9c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2c0.2,0,0.4-0.1,0.5-0.2c0,0,2.8-2.8,3-3
+			c0.2-0.2,0.3-0.1,0.4,0c0.4,0.7,0.7,1.5,0.7,2.4C42.3,30.9,40.2,33,37.7,33z M50.5,33c-2.5,0-4.6-2-4.6-4.6c0-2.5,2-4.6,4.6-4.6
+			c0.9,0,1.7,0.2,2.4,0.7c0.1,0.1,0.2,0.2,0,0.4c-0.2,0.2-2.9,2.9-2.9,2.9c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2
+			s0.4-0.1,0.5-0.2c0,0,2.8-2.8,3-3c0.2-0.2,0.3-0.1,0.4,0c0.4,0.7,0.7,1.5,0.7,2.4C55.1,30.9,53,33,50.5,33z M63.3,33
+			c-2.5,0-4.6-2-4.6-4.6c0-2.5,2-4.6,4.6-4.6c0.9,0,1.7,0.2,2.4,0.7c0.1,0.1,0.2,0.2,0,0.4c-0.2,0.2-2.9,2.9-2.9,2.9
+			c-0.3,0.3-0.3,0.8,0,1.1c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2c0,0,2.8-2.8,3-3c0.2-0.2,0.3-0.1,0.4,0c0.4,0.7,0.7,1.5,0.7,2.4
+			C67.9,30.9,65.8,33,63.3,33z"></path>
+		<path fill="#414042" d="M25.9,45.5c-0.8,0-1.5,0.7-1.5,1.5v5.5c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5V47
+			C27.4,46.2,26.7,45.5,25.9,45.5z"></path>
+		<path fill="#414042" d="M74.1,45.3c-0.8,0-1.5,0.7-1.5,1.5v5.5c0,0.8,0.7,1.5,1.5,1.5c0.8,0,1.5-0.7,1.5-1.5v-5.5
+			C75.6,46,74.9,45.3,74.1,45.3z"></path>
+	</g>
+</g>
+</svg>
+
+<p class='small align-center'>
+Pedal - 1.5 lbs
+<br>
+8 x 5 x 4 in
+</p>
+</a><a class="col gear-weight" data-package-height-inches="10" data-package-length-inches="18" data-package-preset-link="true" data-package-weight-pounds="12" data-package-width-inches="18" href="#"><?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="svg-snare" viewBox="0 0 100 100">
+<g>
+	<path fill="none" d="M75.4,72c7.5-1.9,11.9-4.6,11.9-7v-0.5c-2.2,2.1-6.4,4-11.9,5.3V72z"></path>
+	<path fill="none" d="M24.5,46.8V45c0-0.1,0-0.1,0-0.2c-5.1-1.3-9.3-2.9-11.9-5v1.3C14.4,43.3,18.7,45.3,24.5,46.8z"></path>
+	<path fill="none" d="M12.7,64.5V65c0,2.5,4.4,5.1,11.9,7v-2.2C19,68.4,14.9,66.6,12.7,64.5z"></path>
+	<path fill="none" d="M73.1,70.4c-6.1,1.3-13.6,2.1-21.9,2.2v2.2c8.6-0.1,16.1-0.9,22-2.2c-0.1-0.1-0.1-0.3-0.1-0.4V70.4z"></path>
+	<path fill="none" d="M26.9,70.4v1.7c0,0.2,0,0.3-0.1,0.4c5.9,1.3,13.4,2.2,22,2.2v-2.2C40.6,72.5,33,71.7,26.9,70.4z"></path>
+	<path fill="none" d="M73.1,47.3v-2c-6.5,1.4-14.3,2.1-21.9,2.2v2C59.3,49.5,66.9,48.6,73.1,47.3z"></path>
+	<path fill="none" d="M87.3,34.9c-0.4-4.6-15.6-9.6-37.3-9.6s-36.9,5-37.3,9.6c4.9-4.7,19.6-8,37.3-8S82.4,30.1,87.3,34.9z"></path>
+	<path fill="none" d="M50,44.9c20.6,0,35.3-4.5,37.1-8.9C83,31.3,67.7,27.7,50,27.7s-33,3.6-37.1,8.2C14.7,40.3,29.4,44.9,50,44.9z"></path>
+	<path fill="none" d="M48.8,49.5v-2c-7.6-0.1-15.4-0.8-21.9-2.2v2C33.1,48.6,40.7,49.5,48.8,49.5z"></path>
+	<path fill="none" d="M75.4,45v1.8c5.9-1.5,10.1-3.5,11.9-5.7v-1.3c-2.6,2.1-6.8,3.8-11.9,5C75.4,44.9,75.4,44.9,75.4,45z"></path>
+	<path fill="none" d="M75.4,50c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2v-1.7c-6.1,1.3-13.6,2.1-21.9,2.2v1.6
+		c0,0.7-0.5,1.2-1.2,1.2s-1.2-0.5-1.2-1.2v-1.6c-8.3-0.1-15.8-0.9-21.9-2.2V50c0,0.7-0.5,1.2-1.2,1.2s-1.2-0.5-1.2-1.2v-2.3
+		c-5.5-1.4-9.7-3.2-11.9-5.3v20.8c1.8,2.2,6,4.2,11.9,5.7v-1.8c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v2.3
+		c6.2,1.3,13.8,2.2,21.9,2.2V70c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v1.6c8.1-0.1,15.7-0.9,21.9-2.2v-2.4c0-0.7,0.5-1.2,1.2-1.2
+		c0.7,0,1.2,0.5,1.2,1.2v1.8c5.9-1.5,10.1-3.5,11.9-5.7V42.4c-2.2,2.1-6.4,4-11.9,5.3V50z"></path>
+	<path fill="#414042" d="M12.7,39.8c-0.3-0.3-0.6-0.5-0.9-0.8c0,0.7,0.3,1.4,0.9,2.1V39.8z"></path>
+	<path fill="#414042" d="M12.7,64.5c-1.2-1.1-1.8-2.3-1.8-3.5h0.9c0,0.8,0.3,1.5,0.9,2.2V42.4c-1.2-1.1-1.8-2.3-1.8-3.5h0.8
+		c-0.1-0.1-0.3-0.3-0.4-0.4h-0.4c0-0.2,0-0.3,0-0.5C10.3,37,10,36.1,10,35V65h2.7V64.5z"></path>
+	<path fill="#414042" d="M50,44.9c-20.6,0-35.3-4.5-37.1-8.9c-0.7,0.8-1.1,1.6-1.1,2.5h-0.5c0.1,0.2,0.3,0.3,0.4,0.4h0.1
+		c0,0,0,0.1,0,0.1c0.3,0.3,0.6,0.6,0.9,0.8c2.5,2.1,6.8,3.8,11.9,5c0.1-0.6,0.6-1,1.2-1c0.7,0,1.2,0.5,1.2,1.2v0.4
+		c6.5,1.4,14.3,2.1,21.9,2.2V47c0-0.7,0.5-1.2,1.2-1.2s1.2,0.5,1.2,1.2v0.5c7.6-0.1,15.3-0.8,21.9-2.2V45c0-0.7,0.5-1.2,1.2-1.2
+		c0.6,0,1.1,0.5,1.2,1c5.1-1.3,9.4-2.9,11.9-5v-3.6c-0.1-0.1-0.1-0.2-0.2-0.2C85.3,40.3,70.6,44.9,50,44.9z"></path>
+	<path fill="#414042" d="M12.7,34.9c0.4-4.6,15.6-9.6,37.3-9.6s36.9,5,37.3,9.6c0.1,0.1,0.1,0.1,0.2,0.2H90c0-8.1-20.6-12.5-40-12.5
+		S10,26.9,10,35c0,1,0.3,2,0.9,2.9C11.1,36.8,11.7,35.8,12.7,34.9z"></path>
+	<path fill="#414042" d="M87.3,34.9c-4.9-4.7-19.6-8-37.3-8s-32.4,3.3-37.3,8c-1,1-1.6,2-1.8,3c0,0.2,0,0.3,0,0.5h0.4h0.5
+		c0-0.8,0.4-1.7,1.1-2.5c4.1-4.7,19.4-8.2,37.1-8.2c17.7,0,33,3.6,37.1,8.2c0.1,0.1,0.1,0.1,0.2,0.2V35h0.2
+		C87.4,35,87.4,34.9,87.3,34.9z"></path>
+	<path fill="#414042" d="M75.4,46.8v1c5.5-1.4,9.7-3.2,11.9-5.3v-1.3C85.6,43.3,81.3,45.3,75.4,46.8z"></path>
+	<path fill="#414042" d="M26.9,47.3v1c6.1,1.3,13.7,2.1,21.9,2.2v-0.9C40.7,49.5,33.1,48.6,26.9,47.3z"></path>
+	<path fill="#414042" d="M51.2,49.5v0.9c8.2-0.1,15.7-0.9,21.9-2.2v-1C66.9,48.6,59.3,49.5,51.2,49.5z"></path>
+	<path fill="#414042" d="M24.5,46.8c-5.8-1.5-10.1-3.5-11.9-5.7c-0.6-0.7-0.9-1.4-0.9-2.1c0,0,0-0.1,0-0.1h-0.1h-0.8
+		c0,1.2,0.6,2.4,1.8,3.5c2.2,2.1,6.4,3.9,11.9,5.3V46.8z"></path>
+	<path fill="#414042" d="M75.4,72v0.1c0,0.7-0.5,1.2-1.2,1.2c-0.5,0-0.9-0.3-1.1-0.8c-5.9,1.3-13.4,2.1-22,2.2v0.3
+		c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2v-0.3c-8.6-0.1-16.1-0.9-22-2.2c-0.2,0.4-0.6,0.8-1.1,0.8c-0.7,0-1.2-0.5-1.2-1.2V72
+		c-7.5-1.9-11.9-4.5-11.9-7H10c0,8.1,20.6,12.5,40,12.5S90,73.1,90,65h-2.7C87.3,67.4,82.9,70.1,75.4,72z"></path>
+	<path fill="#414042" d="M87.5,35h-0.2v1.1v3.6v1.3v1.3v20.8c0.6-0.7,0.9-1.5,0.9-2.2h0.9c0,1.2-0.6,2.4-1.8,3.5V65H90V35H87.5z"></path>
+	<path fill="#414042" d="M48.8,50.4v1.6c0,0.7,0.5,1.2,1.2,1.2s1.2-0.5,1.2-1.2v-1.6v-0.9v-2V47c0-0.7-0.5-1.2-1.2-1.2
+		s-1.2,0.5-1.2,1.2v0.5v2V50.4z M50,46.7c0.2,0,0.3,0.1,0.3,0.3v5c0,0.2-0.1,0.3-0.3,0.3s-0.3-0.1-0.3-0.3v-5
+		C49.7,46.9,49.8,46.7,50,46.7z"></path>
+	<path fill="#414042" d="M24.5,46.8v1V50c0,0.7,0.5,1.2,1.2,1.2s1.2-0.5,1.2-1.2v-1.7v-1v-2V45c0-0.7-0.5-1.2-1.2-1.2
+		c-0.6,0-1.1,0.4-1.2,1c0,0.1,0,0.1,0,0.2V46.8z M25.7,44.7c0.2,0,0.3,0.1,0.3,0.3v5c0,0.2-0.1,0.3-0.3,0.3c-0.2,0-0.3-0.1-0.3-0.3
+		v-5C25.4,44.8,25.5,44.7,25.7,44.7z"></path>
+	<path fill="#414042" d="M73.1,48.3V50c0,0.7,0.5,1.2,1.2,1.2c0.7,0,1.2-0.5,1.2-1.2v-2.3v-1V45c0-0.1,0-0.1,0-0.2
+		c-0.1-0.6-0.6-1-1.2-1c-0.7,0-1.2,0.5-1.2,1.2v0.4v2V48.3z M74.3,44.7c0.2,0,0.3,0.1,0.3,0.3v5c0,0.2-0.1,0.3-0.3,0.3
+		c-0.2,0-0.3-0.1-0.3-0.3v-5C74,44.8,74.1,44.7,74.3,44.7z"></path>
+	<path fill="#414042" d="M75.4,68.9v1c5.5-1.4,9.7-3.2,11.9-5.3c1.2-1.1,1.8-2.3,1.8-3.5h-0.9c0,0.8-0.3,1.5-0.9,2.2
+		C85.6,65.4,81.3,67.4,75.4,68.9z"></path>
+	<path fill="#414042" d="M73.1,70.4v-1c-6.2,1.3-13.7,2.2-21.9,2.2v0.9C59.4,72.5,66.9,71.7,73.1,70.4z"></path>
+	<path fill="#414042" d="M48.8,72.5v-0.9c-8.2-0.1-15.8-0.9-21.9-2.2v1C33,71.7,40.6,72.5,48.8,72.5z"></path>
+	<path fill="#414042" d="M24.5,68.9c-5.8-1.5-10.1-3.5-11.9-5.7c-0.6-0.7-0.9-1.5-0.9-2.2h-0.9c0,1.2,0.6,2.4,1.8,3.5
+		c2.2,2.1,6.4,3.9,11.9,5.3V68.9z"></path>
+	<path fill="#414042" d="M51.2,71.7V70c0-0.7-0.5-1.2-1.2-1.2s-1.2,0.5-1.2,1.2v1.6v0.9v2.2v0.3c0,0.7,0.5,1.2,1.2,1.2
+		s1.2-0.5,1.2-1.2v-0.3v-2.2V71.7z M50,75.4c-0.2,0-0.3-0.1-0.3-0.3v-5c0-0.2,0.1-0.3,0.3-0.3s0.3,0.1,0.3,0.3v5
+		C50.3,75.2,50.2,75.4,50,75.4z"></path>
+	<path fill="#414042" d="M26.9,70.4v-1v-2.3c0-0.7-0.5-1.2-1.2-1.2s-1.2,0.5-1.2,1.2v1.8v1V72v0.1c0,0.7,0.5,1.2,1.2,1.2
+		c0.5,0,0.9-0.3,1.1-0.8c0.1-0.1,0.1-0.3,0.1-0.4V70.4z M25.7,72.4c-0.2,0-0.3-0.1-0.3-0.3v-5c0-0.2,0.1-0.3,0.3-0.3
+		c0.2,0,0.3,0.1,0.3,0.3v5C26,72.3,25.9,72.4,25.7,72.4z"></path>
+	<path fill="#414042" d="M75.4,68.9v-1.8c0-0.7-0.5-1.2-1.2-1.2c-0.7,0-1.2,0.5-1.2,1.2v2.4v1v1.7c0,0.2,0,0.3,0.1,0.4
+		c0.2,0.4,0.6,0.8,1.1,0.8c0.7,0,1.2-0.5,1.2-1.2V72v-2.2V68.9z M74.3,72.4c-0.2,0-0.3-0.1-0.3-0.3v-5c0-0.2,0.1-0.3,0.3-0.3
+		c0.2,0,0.3,0.1,0.3,0.3v5C74.5,72.3,74.4,72.4,74.3,72.4z"></path>
+</g>
+</svg>
+
+<p class='small align-center'>
+Snare - 12 lbs
+<br>
+18 x 18 x 10 in
+</p>
+</a><a class="col gear-weight" data-package-height-inches="8" data-package-length-inches="50" data-package-preset-link="true" data-package-weight-pounds="32" data-package-width-inches="20" href="#"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="svg-guitar" viewBox="0 0 100 100">
+<g>
+	<defs>
+		
+			<rect id="SVGID_3_" x="-5.4" y="-6.7" transform="matrix(0.7071 0.7071 -0.7071 0.7071 51.0572 -21.9296)" width="114.8" height="114.8"></rect>
+	</defs>
+	<clippath id="SVGID_2_">
+		<use xlink:href="#SVGID_3_" overflow="visible"></use>
+	</clippath>
+	<path clip-path="url(#SVGID_2_)" fill="#414042" d="M161.4-45.8c0,0-1.6-1.3-2.3-2.7c-0.2-0.3-0.3-0.6-0.4-0.9
+		c-0.2-0.5-0.3-1-0.4-1.4c-0.1-0.5-0.3-1-0.7-1.3c-0.3-0.2-0.7-0.3-1-0.3c-0.3,0-0.8,0.2-0.9-0.2c0-0.2,0-0.4,0-0.7
+		c0-0.2,0-0.4-0.1-0.7c-0.1-0.3-0.3-0.5-0.5-0.7c-0.6-0.5-2-0.4-3.3-1.1c-1.4-0.7-2.7-2.3-2.7-2.3l-0.6,1.5c-0.7,1.4-1.6,2.8-2.6,4
+		l-0.4-0.4l0.1-0.1c0.1-0.1,0.1-0.3,0-0.4c0,0-0.1-0.1-0.2-0.1l0.1-0.8L144-56c0,0-0.9,1-1.4,0.8l-0.1,0.1c0.2,0.5-0.8,1.4-0.8,1.4
+		l1.7,1.4l0.8-0.1c0,0.1,0,0.1,0.1,0.2c0.1,0.1,0.3,0.1,0.4,0l0.1-0.1l0.5,0.5c-1,1.2-2,2.2-3,3.2l-0.6-0.6l0.1-0.1
+		c0.1-0.1,0.1-0.3,0-0.4c0,0-0.1-0.1-0.2-0.1l0.1-0.8l-1.4-1.7c0,0-0.9,1-1.4,0.8l-0.1,0.1c0.2,0.5-0.8,1.4-0.8,1.4l1.7,1.4l0.8-0.1
+		c0,0.1,0,0.1,0.1,0.2c0.1,0.1,0.3,0.1,0.4,0l0.1-0.1l0.6,0.6c-1.2,1.1-2.5,2.1-3.6,3l-0.3-0.3l0.1-0.1c0.1-0.1,0.1-0.3,0-0.4
+		c0,0-0.1-0.1-0.2-0.1l0.1-0.8l-1.4-1.7c0,0-0.9,1-1.4,0.8l-0.1,0.1c0.2,0.5-0.8,1.4-0.8,1.4l1.7,1.4l0.8-0.1c0,0.1,0,0.1,0.1,0.2
+		c0.1,0.1,0.3,0.1,0.4,0l0.1-0.1l0.2,0.2c-2.2,1.6-3.8,2.5-3.8,2.5c0.7,5-1.8,7.6-1.8,7.6L77.2,17.2c-1.5-1.6-3.2-3.1-5-4.3
+		c-3-2.1-6.4-3.3-10.1-3.1c-3.2,0.2-6.1,1.8-8.3,4.1c-2.8,2.8-3.5,6.6-5.1,10c-1,2.2-2.8,4-4.9,5.2c-5.9,3.5-13.5,2.1-19.8,4.3
+		c-1.9,0.7-3.9,1.5-5.7,2.5C11.6,39.7,6.8,45.9,5,53.5C4.3,56,4.2,59,4.4,61.6c0.3,2.7,1,5.6,2,8.2c3.7,9.2,12.1,17.8,20.5,22.9
+		c2.2,1.3,4.9,2.4,7.5,3c0.3,0.1,0.5,0.1,0.8,0.2c11.6,2.5,23.5-2.5,29.7-12.6c3.4-5.6,4.8-11.8,5.1-18.3c0.5-9,3.9-10.7,7.1-12
+		c3.2-1.3,9.3-2.1,12.2-6.1c2.9-4,1.3-4.9-1.3-4.6c-2.3,0.3-4.1,0.9-6.3-0.2c-1.8-0.9-3.2-2.6-3.9-4.5c-1.1-2.7,0.7-5.6,2.5-7.5
+		c0.1-0.1,57.4-58.6,57.4-58.6s2.6-2.5,7.6-1.8c0,0,0.9-1.6,2.5-3.8l0.3,0.3l-0.1,0.1c-0.1,0.1-0.1,0.3,0,0.4c0,0,0.1,0.1,0.2,0.1
+		l-0.1,0.8l1.4,1.7c0,0,0.9-1,1.4-0.8l0.1-0.1c-0.2-0.5,0.8-1.4,0.8-1.4l-1.7-1.4l-0.8,0.1c0-0.1,0-0.1-0.1-0.2
+		c-0.1-0.1-0.3-0.1-0.4,0l-0.1,0.1l-0.4-0.4c0.8-1.1,1.7-2.2,2.8-3.4l0.7,0.7l-0.1,0.1c-0.1,0.1-0.1,0.3,0,0.4c0,0,0.1,0.1,0.2,0.1
+		l-0.1,0.8l1.4,1.7c0,0,0.9-1,1.4-0.8l0.1-0.1c-0.2-0.5,0.8-1.4,0.8-1.4l-1.7-1.4l-0.8,0.1c0-0.1,0-0.1-0.1-0.2
+		c-0.1-0.1-0.3-0.1-0.4,0l-0.1,0.1l-0.7-0.7c1-1.1,2.2-2.2,3.4-3.2l0.6,0.6l-0.1,0.1c-0.1,0.1-0.1,0.3,0,0.4c0,0,0.1,0.1,0.2,0.1
+		l-0.1,0.8l1.4,1.7c0,0,0.9-1,1.4-0.8l0.1-0.1c-0.2-0.5,0.8-1.4,0.8-1.4l-1.7-1.4l-0.8,0.1c0-0.1,0-0.1-0.1-0.2
+		c-0.1-0.1-0.3-0.1-0.4,0l-0.1,0.1l-0.6-0.6c1.3-1,2.6-1.9,4-2.6L161.4-45.8z M59.2,18.2c1.4-1.4,3.7-1.4,5.1,0
+		c1.4,1.4,1.4,3.7,0,5.1c-1.4,1.4-3.7,1.4-5.1,0C57.8,21.9,57.8,19.6,59.2,18.2z M41,85.5c-1,1-2.6,1-3.6,0c-1-1-1-2.6,0-3.6
+		c1-1,2.6-1,3.6,0C42,82.9,42,84.5,41,85.5z M44.8,74.5c1-1,2.6-1,3.6,0c1,1,1,2.6,0,3.6s-2.6,1-3.6,0
+		C43.8,77.1,43.8,75.5,44.8,74.5z M50.9,88c-1,1-2.6,1-3.6,0c-1-1-1-2.6,0-3.6c1-1,2.6-1,3.6,0C51.9,85.4,51.9,87,50.9,88z
+		 M58.3,80.6c-1,1-2.6,1-3.6,0c-1-1-1-2.6,0-3.6c1-1,2.6-1,3.6,0C59.3,78,59.3,79.6,58.3,80.6z"></path>
+</g>
+</svg>
+
+<p class='small align-center'>
+Guitar - 32 lbs
+<br>
+50 x 20 x 8 in
+</p>
+</a><a class="col gear-weight" data-package-height-inches="22" data-package-length-inches="30" data-package-preset-link="true" data-package-weight-pounds="50" data-package-width-inches="14" href="#"><?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="svg-amp" viewBox="0 0 100 100">
+<g>
+	<polygon fill="#414042" points="49.6,72 49.6,72 59.3,81.6 68.9,72 68.9,72 59.3,81.6 	"></polygon>
+	<polygon fill="#414042" points="28.2,52 18.6,61.7 18.6,61.7 	"></polygon>
+	<path fill="#414042" d="M21.3,15.5c0,0.1,0.1,0.5,0.2,1.2c1.2,0.4,2.1,1.6,2.1,3c0,1.1-0.6,2.1-1.5,2.6c0,0.4,0,0.7,0,1.1
+		c0,0.3-0.2,0.6-0.4,0.8c-0.1,0.1-0.6,0.3-1.3,0.3l0,0c0.7,0,1.2-0.3,1.3-0.3c0.3-0.2,0.4-0.5,0.4-0.8c0-0.4,0-0.7,0-1.1
+		c0.9-0.6,1.5-1.5,1.5-2.6c0-1.4-0.9-2.5-2.1-3C21.4,16,21.3,15.6,21.3,15.5c-0.1-0.4-0.5-0.7-0.9-0.7c0,0,0,0,0,0
+		C20.8,14.8,21.2,15.1,21.3,15.5z"></path>
+	<polygon fill="#414042" points="34.7,44.2 37.9,41 33.1,36.2 37.9,41 	"></polygon>
+	<polygon fill="#414042" points="33.1,56.9 37.9,61.7 28.2,71.3 37.9,61.7 	"></polygon>
+	<polygon fill="#414042" points="79.2,61.7 69.6,52 69.6,52 79.2,61.7 69.6,71.3 69.6,71.3 	"></polygon>
+	<polygon fill="#414042" points="49.6,51.3 59.3,41.7 68.9,51.3 68.9,51.3 59.3,41.7 49.6,51.3 	"></polygon>
+	<polygon fill="#414042" points="48.2,72 38.6,62.4 38.6,62.4 48.2,72 38.6,81.6 38.6,81.6 	"></polygon>
+	<polygon fill="#414042" points="39.3,61.7 45.1,67.4 39.3,61.7 	"></polygon>
+	<path fill="#414042" d="M68.7,23.5c-0.6,0-1-0.5-1-1c0-0.6,0.4-1,1-1c-0.6,0-1,0.5-1,1C67.7,23,68.2,23.5,68.7,23.5z"></path>
+	<path fill="#414042" d="M68.7,18c-0.6,0-1-0.4-1-1c0-0.4,0.3-0.8,0.6-0.9c-0.4,0.2-0.6,0.5-0.6,0.9C67.7,17.5,68.2,18,68.7,18z"></path>
+	<path fill="#414042" d="M68.7,19c1,0,1.8-0.7,2-1.6C70.5,18.3,69.7,19,68.7,19z"></path>
+	<path fill="#414042" d="M18.9,17c0.1-0.1,0.3-0.1,0.4-0.2C19.1,16.8,19,16.9,18.9,17z"></path>
+	<polygon fill="#414042" points="77.6,24.5 77.6,24.5 78.5,23.5 77.6,20 77.6,20 78.5,23.5 	"></polygon>
+	<path fill="#414042" d="M68.7,24.5c1,0,1.8-0.7,2-1.6C70.5,23.8,69.7,24.5,68.7,24.5z"></path>
+	<path fill="#414042" d="M30.6,22.1c-0.1,0.7-0.1,1.1-0.1,1.2c0,0.4,0.2,0.8,0.6,0.9c0,0,0,0,0,0c0.1,0,0.2,0,0.3,0
+		c-0.1,0-0.2,0-0.3,0c0,0,0,0,0,0c-0.4-0.1-0.7-0.5-0.6-0.9C30.5,23.3,30.5,22.8,30.6,22.1c-0.7-0.6-1.2-1.5-1.2-2.5
+		c0-1.5,1-2.7,2.4-3c0.1-0.3,0.2-0.7,0.3-1c0.1-0.3,0.3-0.5,0.6-0.6c0.1,0,0.2,0,0.4-0.1c-0.2,0-0.4,0-0.4,0.1
+		c-0.3,0.1-0.5,0.3-0.6,0.6c-0.1,0.3-0.2,0.7-0.3,1c-1.4,0.4-2.4,1.6-2.4,3C29.4,20.7,29.8,21.6,30.6,22.1z"></path>
+	<polygon fill="#414042" points="39.3,41 48.9,50.6 48.9,50.6 39.3,41 48.9,31.4 48.9,31.4 	"></polygon>
+	<path fill="#414042" d="M46.4,17.5c0.5,0.6,0.9,1.3,0.9,2.2C47.2,18.8,46.9,18.1,46.4,17.5z"></path>
+	<path fill="#414042" d="M54.4,22.3c0,0.7,0,1.1,0,1.1c0,0.3,0.2,0.6,0.5,0.8c0.4,0.2,0.8,0.3,1.2,0.3h0c-0.4,0-0.8-0.1-1.2-0.3
+		c-0.3-0.1-0.5-0.5-0.5-0.8C54.4,23.4,54.4,22.9,54.4,22.3c-0.9-0.6-1.4-1.5-1.4-2.6c0-1.3,0.8-2.4,1.9-2.9c0.1-0.4,0.1-0.8,0.2-1.2
+		c0.1-0.4,0.5-0.7,0.9-0.7c0,0,0,0,0,0c-0.4,0-0.8,0.3-0.9,0.7c-0.1,0.4-0.2,0.8-0.2,1.2c-1.1,0.5-1.9,1.6-1.9,2.9
+		C52.9,20.8,53.5,21.7,54.4,22.3z"></path>
+	<path fill="#414042" d="M41.4,21.2c-0.3-0.5-0.4-1-0.4-1.6C41,20.2,41.1,20.8,41.4,21.2z"></path>
+	<polygon fill="#414042" points="69.6,31.4 69.6,31.4 79.2,41 69.6,50.6 69.6,50.6 79.2,41 	"></polygon>
+	
+		<rect x="27.1" y="35.6" transform="matrix(-0.7072 -0.7071 0.7071 -0.7072 32.6404 84.6333)" fill="#414042" width="13.4" height="0"></rect>
+	
+		<rect x="47.8" y="35.6" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 67.924 99.2487)" fill="#414042" width="13.4" height="0"></rect>
+	<polygon fill="#414042" points="17.9,40.3 17.9,40.3 10.5,32.9 	"></polygon>
+	<polygon fill="#414042" points="38.6,61 38.6,61 29,51.3 38.6,41.7 38.6,41.7 29,51.3 	"></polygon>
+	
+		<rect x="62.8" y="34.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -8.6104 61.2105)" fill="#414042" width="13.6" height="13.6"></rect>
+	
+		<rect x="62.8" y="54.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -23.2273 67.2649)" fill="#414042" width="13.6" height="13.6"></rect>
+	
+		<rect x="52.4" y="44.5" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 64.8494 129.5304)" fill="#414042" width="13.6" height="13.6"></rect>
+	
+		<rect x="31.8" y="44.5" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 102.1694 60.3517)" fill="#414042" width="13.6" height="13.6"></rect>
+	<polygon fill="#414042" points="10.5,55 10.5,68.4 17.2,61.7 	"></polygon>
+	
+		<rect x="42.1" y="34.2" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 112.502 35.4022)" fill="#414042" width="13.6" height="13.6"></rect>
+	
+		<rect x="52.4" y="65.2" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 50.2368 164.8071)" fill="#414042" width="13.6" height="13.6"></rect>
+	<polygon fill="#414042" points="33.1,56.9 28.2,52 18.6,61.7 28.2,71.3 37.9,61.7 	"></polygon>
+	<polygon fill="#414042" points="48.9,52 39.3,61.7 45.1,67.4 48.9,71.3 58.5,61.7 	"></polygon>
+	<path fill="#414042" d="M86,5H14c-5,0-9,4-9,9v72c0,5,4,9,9,9h72c5,0,9-4,9-9V14C95,9,91,5,86,5z M90.5,30.8V86
+		c0,2.5-2,4.5-4.5,4.5H14c-2.5,0-4.5-2-4.5-4.5V30.8V14c0-2.5,2-4.5,4.5-4.5h72c2.5,0,4.5,2,4.5,4.5V30.8z"></path>
+	<polygon fill="#414042" points="27.5,51.3 17.9,41.7 10.5,49.1 10.5,53.5 17.9,61 	"></polygon>
+	<polygon fill="#414042" points="10.5,34.3 10.5,47.7 17.2,41 	"></polygon>
+	<polygon fill="#414042" points="27.5,72 17.9,62.4 10.5,69.8 10.5,74.2 17.9,81.6 	"></polygon>
+	
+		<rect x="31.8" y="65.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -39.6054 48.3698)" fill="#414042" width="13.6" height="13.6"></rect>
+	<polygon fill="#414042" points="28.2,50.6 34.7,44.2 37.9,41 33.1,36.2 28.2,31.4 18.6,41 	"></polygon>
+	<polygon fill="#414042" points="70.3,72 79.9,81.6 89.5,72 89.5,72 79.9,62.4 	"></polygon>
+	<polygon fill="#414042" points="89.5,70.5 89.5,52.8 80.6,61.7 	"></polygon>
+	<polygon fill="#414042" points="70.3,51.3 79.9,61 89.5,51.4 89.5,51.3 79.9,41.7 	"></polygon>
+	<path fill="#414042" d="M73.5,89.5H86c0.1,0,0.2,0,0.3,0L79.9,83L73.5,89.5z"></path>
+	<path fill="#414042" d="M87.5,89.2c1.2-0.6,2-1.8,2-3.2V73.5l-8.9,8.9L87.5,89.2z"></path>
+	<path fill="#414042" d="M10.5,75.6V86c0,0.8,0.3,1.6,0.8,2.2l5.9-5.9L10.5,75.6z"></path>
+	<polygon fill="#414042" points="10.5,30.8 10.5,32.9 17.9,40.3 27.4,30.8 27.4,30.8 29.1,30.8 29.1,30.8 38.6,40.3 48.1,30.8 
+		48.1,30.8 49.8,30.8 49.8,30.8 59.2,40.3 68.7,30.8 70.4,30.8 79.9,40.3 89.5,30.7 89.5,29.8 10.5,29.8 	"></polygon>
+	<polygon fill="#414042" points="89.5,49.9 89.5,32.1 80.6,41 	"></polygon>
+	<polygon fill="#414042" points="28.2,72.7 18.6,82.3 25.8,89.5 30.7,89.5 37.9,82.3 	"></polygon>
+	<polygon fill="#414042" points="69.6,72.7 60,82.3 67.1,89.5 72,89.5 79.2,82.3 	"></polygon>
+	<path fill="#414042" d="M12.1,88.9c0.6,0.4,1.2,0.6,1.9,0.6h10.4L17.9,83L12.1,88.9z"></path>
+	<polygon fill="#414042" points="32.1,89.5 45,89.5 38.6,83 	"></polygon>
+	<polygon fill="#414042" points="52.8,89.5 65.7,89.5 59.3,83 	"></polygon>
+	<polygon fill="#414042" points="48.9,72.7 39.3,82.3 46.5,89.5 51.4,89.5 58.5,82.3 	"></polygon>
+	<path fill="#414042" d="M18.8,22.3c0,0.7,0,1.1,0,1.1c0,0.3,0.2,0.6,0.5,0.8c0.4,0.2,0.8,0.3,1.2,0.3l0,0c0.7,0,1.2-0.3,1.3-0.3
+		c0.3-0.2,0.4-0.5,0.4-0.8c0-0.4,0-0.7,0-1.1c0.9-0.6,1.5-1.5,1.5-2.6c0-1.4-0.9-2.5-2.1-3c-0.1-0.7-0.2-1.1-0.2-1.2
+		c-0.1-0.4-0.5-0.7-0.9-0.7c0,0,0,0,0,0c0,0,0,0,0,0c-0.4,0-0.8,0.3-0.9,0.7c-0.1,0.4-0.2,0.8-0.2,1.2c0,0,0,0,0,0
+		c-0.1,0.1-0.3,0.1-0.4,0.2c-0.9,0.5-1.5,1.5-1.5,2.7C17.4,20.8,17.9,21.7,18.8,22.3z"></path>
+	<path fill="#414042" d="M32,15.6c-0.1,0.3-0.2,0.7-0.3,1c-1.4,0.4-2.4,1.6-2.4,3c0,1,0.5,1.9,1.2,2.5c-0.1,0.7-0.1,1.1-0.1,1.2
+		c0,0.4,0.2,0.8,0.6,0.9c0,0,0,0,0,0c0.1,0,0.2,0,0.3,0c0.3,0,0.6-0.2,0.7-0.4c0.2-0.4,0.4-0.7,0.6-1.1c1.6-0.1,2.9-1.5,2.9-3.1
+		c0-0.7-0.3-1.4-0.7-2c0.2-0.6,0.3-1,0.3-1.1c0.1-0.3,0-0.7-0.2-0.9c-0.3-0.3-0.7-0.5-1.1-0.7c-0.3-0.1-0.6-0.1-0.9-0.1
+		c-0.2,0-0.4,0-0.4,0.1C32.4,15.1,32.1,15.3,32,15.6z"></path>
+	<path fill="#414042" d="M41.9,24c0.6,0.3,1.2,0.3,1.3,0.3c0.3,0,0.6-0.2,0.7-0.5c0.2-0.3,0.3-0.7,0.5-1c1.6-0.2,2.8-1.5,2.8-3.1
+		c0-0.8-0.3-1.6-0.9-2.2c0.2-0.7,0.3-1.1,0.3-1.2c0.1-0.4-0.1-0.8-0.5-1c0,0,0,0,0,0c-0.4-0.2-0.8-0.1-1.1,0.2
+		c-0.3,0.3-0.5,0.7-0.8,1c-0.1,0-0.2,0-0.2,0c-1.7,0-3.1,1.4-3.1,3.1c0,0.6,0.2,1.1,0.4,1.6c-0.3,0.6-0.5,1-0.5,1
+		c-0.1,0.3-0.1,0.7,0.1,0.9C41.2,23.5,41.5,23.8,41.9,24z"></path>
+	<path fill="#414042" d="M55.1,15.5c-0.1,0.4-0.2,0.8-0.2,1.2c-1.1,0.5-1.9,1.6-1.9,2.9c0,1.1,0.6,2.1,1.4,2.6c0,0.7,0,1.1,0,1.1
+		c0,0.3,0.2,0.6,0.5,0.8c0.4,0.2,0.8,0.3,1.2,0.3h0c0.7,0,1.2-0.3,1.3-0.3c0.3-0.2,0.4-0.5,0.4-0.8c0-0.4,0-0.7,0-1.1
+		c0.9-0.6,1.5-1.5,1.5-2.6c0-1.4-0.9-2.5-2.1-3c-0.1-0.7-0.2-1.1-0.2-1.2c-0.1-0.4-0.5-0.7-0.9-0.7c0,0,0,0,0,0s0,0,0,0
+		C55.6,14.8,55.2,15.1,55.1,15.5z"></path>
+	<path fill="#414042" d="M68.7,19c1,0,1.8-0.7,2-1.6c0-0.1,0-0.3,0-0.4c0-1.1-0.9-2-2-2c-1.1,0-2,0.9-2,2C66.7,18.1,67.6,19,68.7,19
+		z M68.3,16c0.1-0.1,0.3-0.1,0.4-0.1c0.6,0,1,0.5,1,1c0,0.6-0.5,1-1,1c-0.6,0-1-0.4-1-1C67.7,16.5,68,16.2,68.3,16z"></path>
+	<path fill="#414042" d="M68.7,24.5c1,0,1.8-0.7,2-1.6c0-0.1,0-0.3,0-0.4c0-1.1-0.9-2-2-2c-1.1,0-2,0.9-2,2
+		C66.7,23.6,67.6,24.5,68.7,24.5z M68.7,21.5c0.6,0,1,0.5,1,1c0,0.6-0.5,1-1,1c-0.6,0-1-0.5-1-1C67.7,21.9,68.2,21.5,68.7,21.5z"></path>
+	<polygon fill="#414042" points="77.6,24.5 81.6,24.5 81.6,24.5 82.6,23.5 81.6,20 81.6,20 77.6,20 78.5,23.5 	"></polygon>
+	<rect x="77.6" y="14.9" fill="#414042" width="4" height="4"></rect>
+	<polygon fill="#414042" points="77.6,24.5 77.6,24.5 77.6,24.5 77.6,24.5 77.6,24.5 	"></polygon>
+</g>
+</svg>
+
+<p class='small align-center'>
+Amp - 50 lbs
+<br>
+30 x 14 x 22 in
+</p>
+</a></div>
+<div class='two-col with-gutter'>
+<div class='col'>
+<label>Total Package Weight</label>
+<div class='position-relative suffix-pounds align-right'>
+<input class='pounds-input text wide align-right' data-shipping-estimate-field='weight-pounds' placeholder='0.0' type='tel'>
+</div>
+</div>
+<div class='col'>
+<label>Package Dimensions</label>
+<div class='three-col with-gutter margined-bottom'>
+<div class='col'>
+<div class='position-relative suffix-inches align-right'>
+<input class='length-input text wide align-right' data-shipping-estimate-field='length-inches' placeholder='L' type='tel'>
+</div>
+</div>
+<div class='col'>
+<div class='position-relative suffix-inches align-right'>
+<input class='width-input text wide align-right' data-shipping-estimate-field='width-inches' placeholder='W' type='tel'>
+</div>
+</div>
+<div class='col'>
+<div class='position-relative suffix-inches align-right'>
+<input class='height-input text wide align-right' data-shipping-estimate-field='height-inches' placeholder='H' type='tel'>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='two-col with-gutter margined-bottom'>
+<div class='col'>
+<label>Your Zip</label>
+<input class="wide" data-shipping-estimate-field="from-postal" id="product_item_postal_code" label="false" name="product[item_postal_code]" type="text" />
+</div>
+<div class='col'>
+<label>&nbsp;</label>
+<a class="btn btn-blue-simple wide" data-disable-with="Please Wait" data-estimate-result-target="#shipping-estimate-result" href="/shipping_estimate/for_country" id="shipping-estimate-button">Get Estimate</a>
+</div>
+</div>
+<div class='hidden' id='shipping-estimate-result'></div>
+</div>
+</div>
+
+</div>
+<aside class='listing-helper hint-faded hint-btm'>
+<h3>How to set the shipping price</h3>
+<div class='margined-bottom'>
+<ul class='fa-ul'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Set these defaults for as many countries as you'd like.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+You can change the default shipping price when negotiating offers with buyers.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Enter 0 for free shipping to make your listing more attractive to buyers.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Nervous about shipping? See our tips on how to ship a
+<a href="/blog/how-to-ship-a-guitar" tabindex="-1" target="_blank">guitar</a>, an <a href="/blog/how-to-ship-an-amp" tabindex="-1" target="_blank">amp</a>, or <a href="/blog/how-to-pack-and-ship-a-drum-kit" tabindex="-1" target="_blank">drum kit</a>.
+</li>
+</ul>
+</div>
+</aside>
+</div>
+
+<div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>Reverb welcomes individual sellers, and big shops alike.</h3>
+</div>
+<div class='module btm-round-module'>
+<label>Please give your shop a name. <span class='hint'>This is what buyers will see.</span></label>
+<input class="span6 required" id="user_shop_name" name="user[shop][name]" required="required" type="text" value="Gear Depot" />
+</div>
+</div>
+<aside class='listing-helper hint-faded hint-btm'>
+<h3>Why a shop name?</h3>
+<div class='margined-bottom'>
+<ul class='fa-ul'>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+Your shop is a central place for buyers to find all the gear you're selling on Reverb.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+If you're an existing brick &amp; mortar or online shop, help your customers find you on Reverb.
+</li>
+<li>
+<span class='fa fa-check  fa-li success-checkmark'></span>
+You can always change your shop name later.
+</li>
+</ul>
+</div>
+</aside>
+</div>
+
+<div class='row'>
+<div class='listing-span8'>
+<div class='module-label'>
+<h3>Let's create an account so you can track your listing</h3>
+</div>
+<div class='module'>
+Already have an account? Just fill in your email and password below.
+
+<input id="timestamp" name="timestamp" type="hidden" value="1425639924" /><input id="spinner" name="spinner" type="hidden" value="60f71cdb528556dc19df8a6fbaa65d54" />
+<div class='row margined-bottom'>
+<div class='span2'>
+<label>* First Name</label>
+<div class='first_name_container'>
+<input autocomplete="off" class="span2 required" id="62ccc36a0564e96d44842e59b1077c3b" name="62ccc36a0564e96d44842e59b1077c3b" required="required" type="text" /><div style="position: absolute; left: -2000px;"><input autocomplete="off" id="first_name" name="first_name" tabindex="999" type="text" value="" /></div>
+</div>
+</div>
+<div class='span3'>
+<label>* Last Name</label>
+<div class='last_name_container'>
+<input autocomplete="off" class="span3 required" id="f459e7869d3b6f31bc2253f73f8b3a6c" name="f459e7869d3b6f31bc2253f73f8b3a6c" required="required" type="text" /><div style="position: absolute; left: -2000px;"><input autocomplete="off" id="last_name" name="last_name" tabindex="999" type="text" value="" /></div>
+</div>
+</div>
+<div class='span5'>
+<label class='left'>
+* Email
+<span class='hint'></span>
+</label>
+
+<input autocomplete="off" class="span5 required" id="1d9a3b6ca1f80daa332b367e102ee9b2" name="1d9a3b6ca1f80daa332b367e102ee9b2" placeholder="Your email" required="required" type="text" /><div style="position: absolute; left: -2000px;"><input autocomplete="off" id="email" name="email" tabindex="999" type="text" value="" /></div>
+<label class='left'>
+* Password
+<span class='hint'></span>
+</label>
+
+<input autocomplete="off" class="span5 required" id="password-registration" name="user[password]" placeholder="at least 5 characters please" required="required" type="password" value="" />
+<div class="hidden" data-recaptcha="true" id="recaptcha-element-1425639924"></div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class='clear tri-margined-bottom'>
+<div class='form-actions'>
+<input class="btn btn btn-primary" data-analytical="true" data-disable-with="Please wait..." name="commit" type="submit" value="Save &amp; Review Listing" />
+</div>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<div class='full-width-footer hidden-mobile'>
+<div class='listing-form-header'>
+<div class='listing-form-hero'>
+<div class='row'>
+<div class='span2 narrowed'>
+<img alt="Derek headshot" src="//d1g5417jjjo7sf.cloudfront.net/assets/listing-form/derek-cropped-aa0e5e9c5060606f85d5b117db438de3.png" />
+</div>
+<div class='span8'>
+<p class='lead strong halfmargined-bottom'>
+<em>
+Within 5 minutes of listing on Reverb (before I'd even finished listing everything!), I'd already sold something!
+In only 3 hours, I sold half of my guitar pedals, and at the price I listed them for!
+Needless to say, I'm VERY excited to keep using Reverb. I can't believe I haven't tried it until now!
+</em>
+</p>
+<p class='lead'>- Derek from Mesa, AZ</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+<div class='footer-wrapper print-false'>
+<div class='footer'>
+<div class='row extramargined-bottom'>
+<div class='span2 hidden-mobile'>
+<a href="https://reverb.com/"><img alt="Reverb footer logo" src="//d1g5417jjjo7sf.cloudfront.net/assets/footer/footer-logo-262a8040b5c404b7e406028451aac1e7.png" /></a>
+<div class='margined-top'><img alt="NAMM logo" src="//d1g5417jjjo7sf.cloudfront.net/assets/footer/NAMM-logo-dfc3531e5bfbd4a0c0139c5ddfb268fe.png" /></div>
+</div>
+<div class='span2 mobile-align-center'>
+<h4 class='halfmargined-bottom'>HELP</h4>
+<ul>
+<li><a href="/page/why-reverb">Why Reverb?</a></li>
+<li><a href="/page/faq">FAQs</a></li>
+<li><a href="/page/reverb-protection">Reverb Protection</a></li>
+<li><a href="/page/preferred-seller-program">Preferred Sellers</a></li>
+<li><a href="/page/contact">Contact Support</a></li>
+</ul>
+</div>
+<div class='span2 mobile-align-center'>
+<h4 class='halfmargined-bottom'>ABOUT</h4>
+<ul>
+<li><a href="/page/about">About Us</a></li>
+<li class='hidden-mobile'><a href="/page/jobs">Careers</a></li>
+<li class='hidden-mobile'><a href="/page/press">Press</a></li>
+<li><a href="/shop/merch">Reverb Merch</a></li>
+<li class='hidden-mobile'><a href="/page/aid">Affiliate Program</a></li>
+</ul>
+</div>
+<div class='span2 explore-col mobile-align-center'>
+<h4 class='halfmargined-bottom'>EXPLORE</h4>
+<ul>
+<li><a href="https://reverb.com/blog">Blog</a></li>
+<li><a href="https://reverb.com/price-guide">Price Guide</a></li>
+<li><a href="/page/reverb-app">Reverb Apps</a></li>
+<li><a href="/gift-cards">Gift Cards</a></li>
+<li class='hidden-mobile'><a href="/geo/top-cities">Browse by City</a></li>
+<li class='hidden-mobile'><a href="/geo/top-countries">Browse by Country</a></li>
+<li><a href="/brands">Browse by Brand</a></li>
+</ul>
+</div>
+<div class='join-col hidden-mobile'>
+<h4 class='halfmargined-bottom'>GET UPDATES ON <a href="/page/deals-signup">GEAR DEALS</a></h4>
+<form accept-charset="UTF-8" action="/mailchimp_subscriptions?list_id=5889ed6702" data-remote="true" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<div class='hidden overlay alert alert-success' data-success>
+Done! Please check your email for a confirmation.
+</div>
+<input class='required small' name='email' placeholder='Email address' type='email' value=''>
+<input class='btn btn-small' name='subscribe' type='submit' value='Subscribe'>
+</form>
+
+
+<div class='halfmargined-top'>
+<a class="facebook social" href="https://www.facebook.com/reverbmarket" target="_blank" title="Facebook"><span class='fa fa-facebook'></span></a>
+<a class="twitter social" href="http://twitter.com/reverbdotcom" target="_blank" title="Twitter"><span class='fa fa-twitter'></span></a>
+<a class="google-plus social" href="https://plus.google.com/+reverbmarket/" target="_blank" title="Google+"><span class='fa fa-google-plus'></span></a>
+<a class="youtube social" href="http://www.youtube.com/user/reverbmarket" target="_blank" title="YouTube"><span class='fa fa-youtube'></span></a>
+</div>
+<div class='halfmargined-top footer-fb'>
+<div class='fb-like' data-action='like' data-href='https://www.facebook.com/reverbmarket' data-layout='button_count' data-share='true' data-show-faces='false'></div>
+</div>
+</div>
+</div>
+<div class='center extramargined-top'>
+<ul class='inline-list policy-links'>
+<li class='strong'>&copy; 2015 Reverb.com, LLC</li>
+<li class='strong'>Patent Pending</li>
+<li><a href="/page/terms">Terms of Service</a></li>
+<li class='hidden-mobile'><a href="/page/direct-checkout-terms">Direct Checkout Terms</a></li>
+<li><a href="/page/privacy">Privacy Policy</a></li>
+<li class='hidden-mobile'><a href="/page/billing">Billing Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>
+//<![CDATA[
+window.jQuery || document.write(unescape('%3Cscript src="//d1g5417jjjo7sf.cloudfront.net/assets/jquery-17835557e1fcf121dc1d8c8d1bdfea48.js">%3C/script>'))
+//]]>
+</script>
+<script src="//d1g5417jjjo7sf.cloudfront.net/assets/application-cc7b7c0d20e7c8d2a254b4780ee43595.js"></script>
+<script>
+  var _user_id = "";
+  var _sift = _sift || []; _sift.push(['_setAccount', '05e21785e2']); _sift.push(['_setUserId', _user_id]); _sift.push(['_trackPageview']); (function() { function ls() { var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true; e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.siftscience.com/s.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s); } if (window.attachEvent) { window.attachEvent('onload', ls); } else { window.addEventListener('load', ls, false); }})();
+</script>
+
+<script>
+  var google_conversion_id = 998404514;
+  var google_conversion_language = 'en';
+  var google_conversion_format = 3;
+  var google_conversion_color = 'ffffff';
+  var google_conversion_label = '';
+  var google_remarketing_only = true;
+</script>
+<script src='//www.googleadservices.com/pagead/conversion.js' type='text/javascript'></script>
+<noscript>
+<div style='display:inline;'>
+<img alt='' height='1' src='//googleads.g.doubleclick.net/pagead/viewthroughconversion/998404514/?value=0&amp;label=bGE3CN6xkgQQouOJ3AM&amp;guid=ON&amp;script=0' style='border-style:none;' width='1'>
+</div>
+</noscript>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+  Reverb.analytics_providers = {
+    'Google Analytics' : {
+      trackingId: "UA-15611038-1",
+      universalClient: true,
+      enhancedLinkAttribution: true
+    },
+    'KISSmetrics'      : "c91441d33a86247cb11a8573b2ebbc655dd58733",
+    'Customer.io'      : "ea50cf56fa7141cc1655"
+  };
+</script>
+<script>
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+  $.src='//v2.zopim.com/?2X5FhtTK3kNc7pohESyEim7wNmHGaI5s';z.t=+new Date;$.
+  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+
+<script>
+  analytics.initialize(Reverb.analytics_providers);
+  var analytics_hash = {};
+</script>
+<script>
+  Reverb.metrics.identify(null, null, analytics_hash);
+  
+  (function() {
+    function storeGoogleClientId() {
+      if (window.ga && window.$ && window.$.cookie) {
+        ga(function (tracker) {
+          var clientId = tracker.get('clientId');
+          $.cookie('google_cid', clientId);
+        });
+  
+        //Identify user to GA using our db id
+        ga('set', '&uid', null);
+      }
+    }
+  
+    storeGoogleClientId();
+  })();
+</script>
+
+<script>
+  
+  adroll_adv_id = "AWVQFQLE4FFZLNG6KX2FHB";
+  adroll_pix_id = "YX2PUEBF3VGITKFFRL74T2";
+  (function () {
+  var oldonload = window.onload;
+  window.onload = function(){
+     __adroll_loaded=true;
+     var scr = document.createElement("script");
+     var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+     scr.setAttribute('async', 'true');
+     scr.type = "text/javascript";
+     scr.src = host + "/j/roundtrip.js";
+     ((document.getElementsByTagName('head') || [null])[0] ||
+      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+     if(oldonload){oldonload()}};
+  }());
+</script>
+
+<script>
+  _atrk_opts = { atrk_acct:"ltf6j1a4ZP002T", domain:"reverb.com", dynamic: true};
+  (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; 
+  var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+
+<script type="application/ld+json">
+{
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "https://reverb.com/",
+   "potentialAction": {
+     "@type": "SearchAction",
+     "target": "https://reverb.com/?query={search_term_string}",
+     "query-input": "required name=search_term_string"
+   }
+}
+</script>
+
+<script>
+  $.cloudinary.config({"cloud_name":"reverb","private_cdn":true,"secure_distribution":"cloudinary-a.akamaihd.net","cdn_subdomain":true,"cname":"images.reverb.com"});
+  
+        $(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/1oxtArkDMpk1khi0fkaYyg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)});
+      
+  
+  $(function() {
+    analytics.ready(function() {
+      Reverb.metrics.track('create_listing_start', {signed_in: false});
+  
+    });
+  });
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/webshim/1.15.6/minified/polyfiller.js"></script>
+<div class='speech_bubble span4 error hidden' id='form-error-notice'>
+Oops, looks like you forgot something. Please check the fields highlighted in red.
+</div>
+
+<!-- footer_html -->
+
+<!-- end footer_html -->
+<script>
+        window.recaptchaOnloadCallback = function() {
+          
+          grecaptcha.render(document.getElementById('recaptcha-element-1425639924'), {
+            'sitekey' : '6Le1JQITAAAAAP-OSlpD2m60V_tuBA9AbTUvcsoI'
+          });
+        
+        };
+      </script><script defer="defer" src="https://www.google.com/recaptcha/api.js?onload=recaptchaOnloadCallback&amp;render=explicit&amp;fallback=true"></script>
+<script src='/autocomplete/data' type='text/javascript'></script>
+
+
+</body>
+</html>
