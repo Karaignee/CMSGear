@@ -1,48 +1,64 @@
-<div class="container">
-  <div class="row">
-
-    <p id="notice"><%= notice %></p>
-
-
-    <div class="col-md-8 column">
-      
-      <div class="page-header">
-        <%= @gear_page.name %>
-      </div>
-
-      <p>
-      </p>
-
-    <p>
-    <%= image_tag @gear_page.profile_image.url(:medium) %>
-    </p>
-
-    <p>
-      <strong>Description:</strong>
-      <%= @gear_page.description %>
-    </p>
-
-
-      <p>
-        <strong>Brand:</strong>
-        <%= @gear_page.brand %>
-      </p>
-
-      <p>
-        <strong>Related Artist:</strong>
-        <%= @gear_page.artist %>
-      </p>
-
-      <p>
-        <strong>Genre:</strong>
-        <%= @gear_page.genre %>
-      </p>
-
-    </div>
+  <div class="page-header text-center"> 
+     <%= @gear_page.name %>
   </div>
+
+  <!-- header -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="lead">
+                <%= @gear_page.name %> 
+               </p>
+                
+            </div>
+          </div>
+        </div>
+      <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="lead">Image</p>
+                  <%= image_tag @gear_page.profile_image.url(:medium) %>
+
+            </div>
+          </div>
+        </div>
+</div>
 </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="lead">Description</p>
+                <%= @gear_page.description %>
+            </div>
+          </div>
+        </div>
+<div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p class="lead">Factsheet</p>
+              <p> <strong>Brand:</strong>
+                <%= @gear_page.brand %>
+              </p>
+              <p>
+               <strong>Related Artist:</strong>
+                <%= @gear_page.artist %>
+             </p>
+             <p>
+              <strong>Genre:</strong>
+              <%= @gear_page.genre %>
+            </p>
+            </div>
+          </div>
+        </div>
+
+  </div>
+ </div>
 <%= link_to 'Edit', edit_gear_page_path(@gear_page) %> |
 <%= link_to 'Back', gear_pages_path %>
  </div>
