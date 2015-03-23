@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'annotate'
 gem 'paperclip'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-gem 'pg'
+gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

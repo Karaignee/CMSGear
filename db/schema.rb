@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150311193441) do
+ActiveRecord::Schema.define(version: 20150323113728) do
 
   create_table "artists", force: true do |t|
     t.string   "name"
@@ -40,12 +40,14 @@ ActiveRecord::Schema.define(version: 20150311193441) do
     t.string   "profile_image_content_type"
     t.integer  "profile_image_file_size"
     t.datetime "profile_image_updated_at"
+    t.integer  "maincat_id"
   end
 
   add_index "gear_pages", ["ancestry"], name: "index_gear_pages_on_ancestry"
   add_index "gear_pages", ["artist_id"], name: "index_gear_pages_on_artist_id"
   add_index "gear_pages", ["brand_id"], name: "index_gear_pages_on_brand_id"
   add_index "gear_pages", ["genre_id"], name: "index_gear_pages_on_genre_id"
+  add_index "gear_pages", ["maincat_id"], name: "index_gear_pages_on_maincat_id"
 
   create_table "genres", force: true do |t|
     t.string   "name"
