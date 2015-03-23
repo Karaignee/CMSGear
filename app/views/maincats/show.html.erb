@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @maincat.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @maincat.description %>
+</p>
+
+<%= link_to 'Edit', edit_maincat_path(@maincat) %> |
+<%= link_to 'Back', maincats_path %>

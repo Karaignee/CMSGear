@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :maincats
+
   resources :gear_pages
   get 'gear_pages/test', to: 'gear_pages#test', as: :gear_pages_test
 

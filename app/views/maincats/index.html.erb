@@ -1,0 +1,27 @@
+<h1>Listing maincats</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @maincats.each do |maincat| %>
+      <tr>
+        <td><%= maincat.name %></td>
+        <td><%= maincat.description %></td>
+        <td><%= link_to 'Show', maincat %></td>
+        <td><%= link_to 'Edit', edit_maincat_path(maincat) %></td>
+        <td><%= link_to 'Destroy', maincat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Maincat', new_maincat_path %>

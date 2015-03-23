@@ -17,6 +17,7 @@ class GearPage < ActiveRecord::Base
   belongs_to :brand
   belongs_to :artist
   belongs_to :genre
+  belongs_to :maincat
 
   has_ancestry
 

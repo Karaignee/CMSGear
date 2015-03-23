@@ -17,17 +17,18 @@ class GearPagesController < ApplicationController
   # GET /gear_pages/new
   def new
     @gear_page = GearPage.new
+    @maincats = Maincat.all.map{|c| [ c.name, c.id ] }
   end
 
-  # GET /gear_pages/1/edit
+
+
   def edit
+    @maincats = Maincat.all.map{|c| [ c.name, c.id ] }
   end
 
-  # POST /gear_pages
-  # POST /gear_pages.json
   def create
     @gear_page = GearPage.new(gear_page_params)
-
+    @gear_page.maincat_id = params[:maincat_id]
     respond_to do |format|
       if @gear_page.save
         format.html { redirect_to @gear_page, notice: 'Gear page was successfully created.' }

@@ -1,0 +1,2 @@
+module MaincatsHelper
+end

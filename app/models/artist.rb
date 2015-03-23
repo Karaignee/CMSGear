@@ -9,4 +9,6 @@
 #
 
 class Artist < ActiveRecord::Base
+
+	belongs_to :gear_pages
 end
