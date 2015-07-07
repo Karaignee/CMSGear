@@ -13,9 +13,6 @@
  *= require_tree .
  *= require clean/bootstrap
  *= require clean/clean-blog
- *= require froala.editor
- *= require froala.style
- *= require bootstrap-social
  *= require themes/default
  *= require_self
  */
